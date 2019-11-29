@@ -3,7 +3,6 @@ a:
     ['interj', ' ha, uh, oh, ooh, aw, well (emotion word)']
   ]
 
-
 akesi:
   off: [
     ['n', ' animal, reptile, amphibian']
@@ -44,13 +43,11 @@ ali:
     ['mod', ' every, complete, whole']
   ]
 
-
 anpa:
   off: [
     ['n', ' lower part, under, below, floor, beneath']
     ['mod', ' lower, bottom, down']
   ]
-
 
 ante:
   off: [
@@ -60,12 +57,10 @@ ante:
     ['vt', ' alter, modify']
   ]
 
-
 anu:
   off: [
     ['conj', 'r']
   ]
-
 
 awen:
   off: [
@@ -74,24 +69,20 @@ awen:
     ['mod', ' stationary, permanent, sedentary']
   ]
 
-
 e:
   off: [
     ['sep', ' a direct object)']
   ]
-
 
 en:
   off: [
     ['conj', ' (used to coordinate head nouns)']
   ]
 
-
 esun:
   off: [
     ['n', ' shop']
   ]
-
 
 ijo:
   off: [
@@ -99,7 +90,6 @@ ijo:
     ['mod', ' something']
     ['vt', 'y']
   ]
-
 
 ike:
   off: [
@@ -110,19 +100,16 @@ ike:
     ['vi', ' be bad, to suck']
   ]
 
-
 ilo:
   off: [
     ['n', ' device, machine, thing used for a specific purpose']
   ]
-
 
 insa:
   off: [
     ['n', ' inner world, centre, stomach']
     ['mod', ' internal']
   ]
-
 
 jaki:
   off: [
@@ -132,7 +119,6 @@ jaki:
     ['interj', ' yuck!']
   ]
 
-
 jan:
   off: [
     ['n', ' people, human, being, somebody, anybody']
@@ -140,12 +126,10 @@ jan:
     ['vt', ' humanize, personalize']
   ]
 
-
 jelo:
   off: [
     ['mod', ' light green']
   ]
-
 
 jo:
   off: [
@@ -154,12 +138,10 @@ jo:
     ['kama', ' get, take, obtain']
   ]
 
-
 kala:
   off: [
     ['n', ' sea creature']
   ]
-
 
 kalama:
   off: [
@@ -167,7 +149,6 @@ kalama:
     ['vi', ' noise']
     ['vt', ' ring, play (an instrument)']
   ]
-
 
 kama:
   off: [
@@ -177,12 +158,10 @@ kama:
     ['vt', ' about, summon']
   ]
 
-
 kasi:
   off: [
     ['n', ' leaf, herb, tree, wood']
   ]
-
 
 ken:
   off: [
@@ -192,29 +171,26 @@ ken:
     ['cont', ' is possible that']
   ]
 
-
 kepeken:
   off: [
     ['vt', 'e']
     ['prep', 'h']
   ]
 
-
 kili:
   off: [
     ['n', ' pulpy vegetable, mushroom']
   ]
-
 
 kin:
   off: [
     ['mod', ' too, even, indeed (emphasizes the word(s) before it)']
   ]
 
-
 kipisi:
-
-
+  idk: [
+    ['???', 'to cut']
+  ]
 
 kiwen:
   off: [
@@ -222,19 +198,16 @@ kiwen:
     ['n', ' thing, rock, stone, metal, mineral, clay']
   ]
 
-
 ko:
   off: [
     ['n', ' or squishy substance, e.g. paste, powder, gum']
   ]
-
 
 kon:
   off: [
     ['n', ' wind, smell, soul']
     ['mod', ' ethereal, gaseous']
   ]
-
 
 kule:
   off: [
@@ -243,13 +216,11 @@ kule:
     ['vt', ' paint']
   ]
 
-
 kute:
   off: [
     ['vt', ' hear']
     ['mod', ' hearing']
   ]
-
 
 kulupu:
   off: [
@@ -257,12 +228,10 @@ kulupu:
     ['mod', ' shared, public, of the society']
   ]
 
-
 la:
   off: [
     ['sep', ' adverb or phrase of context and sentence)']
   ]
-
 
 lape:
   off: [
@@ -277,7 +246,6 @@ laso:
     ['mod', ' blue-green']
   ]
 
-
 lawa:
   off: [
     ['n', ' mind']
@@ -285,12 +253,10 @@ lawa:
     ['vt', ' control, rule, steer']
   ]
 
-
 len:
   off: [
     ['n', ' cloth, fabric']
   ]
-
 
 lete:
   off: [
@@ -299,12 +265,10 @@ lete:
     ['vt', ' down, chill']
   ]
 
-
 li:
   off: [
     ['sep', ' any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)"']
   ]
-
 
 lili:
   off: [
@@ -312,24 +276,20 @@ lili:
     ['vt', ' shorten, shrink, lessen']
   ]
 
-
 linja:
   off: [
     ['n', ' very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain']
   ]
-
 
 lipu:
   off: [
     ['n', ' and bendable thing, e.g. paper, card, ticket']
   ]
 
-
 loje:
   off: [
     ['mod', 'd']
   ]
-
 
 lon:
   off: [
@@ -337,12 +297,10 @@ lon:
     ['vi', ' there, be present, be real/true, exist, be awake']
   ]
 
-
 luka:
   off: [
     ['n', ' arm']
   ]
-
 
 lukin:
   off: [
@@ -351,18 +309,15 @@ lukin:
     ['mod', ')']
   ]
 
-
 lupa:
   off: [
     ['n', ' orifice, window, door']
   ]
 
-
 ma:
   off: [
     ['n', ' earth, country, (outdoor) area']
   ]
-
 
 mama:
   off: [
@@ -370,12 +325,10 @@ mama:
     ['mod', ' the parent, parental, maternal, fatherly']
   ]
 
-
 mani:
   off: [
     ['n', ' material wealth, currency, dollar, capital']
   ]
-
 
 meli:
   off: [
@@ -383,13 +336,11 @@ meli:
     ['mod', ' feminine, womanly']
   ]
 
-
 mi:
   off: [
     ['n', ' we']
     ['mod', ' our']
   ]
-
 
 mije:
   off: [
@@ -397,13 +348,11 @@ mije:
     ['mod', ' masculine, manly']
   ]
 
-
 moku:
   off: [
     ['n', ' meal']
     ['vt', ' drink, swallow, ingest, consume']
   ]
-
 
 moli:
   off: [
@@ -413,26 +362,22 @@ moli:
     ['mod', ' deadly, fatal']
   ]
 
-
 monsi:
   off: [
     ['n', ' rear end, butt, behind']
     ['mod', ' rear']
   ]
 
-
 mu:
   off: [
     ['interj', ' meow! moo! etc. (cute animal noise)']
   ]
-
 
 mun:
   off: [
     ['n', 'n']
     ['mod', 'r']
   ]
-
 
 musi:
   off: [
@@ -442,7 +387,6 @@ musi:
     ['vt', ' entertain']
   ]
 
-
 mute:
   off: [
     ['mod', ' very, much, several, a lot, abundant, numerous, more']
@@ -450,10 +394,10 @@ mute:
     ['vt', ' many or much']
   ]
 
-
 namako:
-
-
+  idk: [
+    ['???', 'extra, addtional, spice']
+  ]
 
 nanpa:
   off: [
@@ -461,43 +405,36 @@ nanpa:
     ['oth', ' (ordinal numbers)']
   ]
 
-
 nasa:
   off: [
     ['mod', ' crazy, foolish, drunk, strange, stupid, weird']
     ['vt', ' crazy, make weird']
   ]
 
-
 nasin:
   off: [
     ['n', ' manner, custom, road, path, doctrine, system, method']
   ]
-
 
 nena:
   off: [
     ['n', ' nose, hill, mountain, button']
   ]
 
-
 ni:
   off: [
     ['mod', ' that']
   ]
-
 
 nimi:
   off: [
     ['n', ' name']
   ]
 
-
 noka:
   off: [
     ['n', ' foot']
   ]
-
 
 o:
   off: [
@@ -505,12 +442,10 @@ o:
     ['interj', ' (calling somebody\'s attention)']
   ]
 
-
 oko:
   off: [
     ['n', 'e']
   ]
-
 
 olin:
   off: [
@@ -519,19 +454,16 @@ olin:
     ['vt', ' love (a person)']
   ]
 
-
 ona:
   off: [
     ['n', ' he, it, they']
     ['mod', ' his, its, their']
   ]
 
-
 open:
   off: [
     ['vt', ' turn on']
   ]
-
 
 pakala:
   off: [
@@ -541,7 +473,6 @@ pakala:
     ['interj', ' fuck!']
   ]
 
-
 pali:
   off: [
     ['n', ' work, deed, project']
@@ -550,18 +481,15 @@ pali:
     ['vi', ' work, function']
   ]
 
-
 palisa:
   off: [
     ['n', ' mostly hard object, e.g. rod, stick, branch']
   ]
 
-
 pan:
   off: [
     ['n', ' cereal']
   ]
-
 
 pana:
   off: [
@@ -569,18 +497,15 @@ pana:
     ['n', ' transfer, exchange']
   ]
 
-
 pata:
   off: [
     ['n', ' brother']
   ]
 
-
 pi:
   off: [
     ['sep', ' belonging to']
   ]
-
 
 pilin:
   off: [
@@ -589,14 +514,12 @@ pilin:
     ['vt', ' think, sense, touch']
   ]
 
-
 pimeja:
   off: [
     ['mod', ' dark']
     ['n', ' shadows']
     ['vt', 'n']
   ]
-
 
 pini:
   off: [
@@ -605,12 +528,10 @@ pini:
     ['vt', ' close, end, turn off']
   ]
 
-
 pipi:
   off: [
     ['n', ' insect, spider']
   ]
-
 
 poka:
   off: [
@@ -619,12 +540,10 @@ poka:
     ['mod', 'g']
   ]
 
-
 poki:
   off: [
     ['n', ' box, bowl, cup, glass']
   ]
-
 
 pona:
   off: [
@@ -675,12 +594,10 @@ selo:
     ['n', ' surface, skin, shell, bark, shape, peel']
   ]
 
-
 seme:
   off: [
     ['oth', ' which, wh- (question word)']
   ]
-
 
 sewi:
   off: [
@@ -688,12 +605,10 @@ sewi:
     ['mod', ' elevated, religious, formal']
   ]
 
-
 sijelo:
   off: [
     ['n', ' physical state']
   ]
-
 
 sike:
   off: [
@@ -701,13 +616,11 @@ sike:
     ['mod', ' cyclical']
   ]
 
-
 sin:
   off: [
     ['mod', ' fresh, another, more']
     ['vt', ' renovate, freshen']
   ]
-
 
 sina:
   off: [
@@ -715,12 +628,10 @@ sina:
     ['mod', 'r']
   ]
 
-
 sinpin:
   off: [
     ['n', ' chest, torso, face, wall']
   ]
-
 
 sitelen:
   off: [
@@ -742,12 +653,10 @@ sona:
     ['kama', ' study']
   ]
 
-
 soweli:
   off: [
     ['n', ' especially land mammal, lovable animal']
   ]
-
 
 suli:
   off: [
@@ -755,7 +664,6 @@ suli:
     ['vt', ' lengthen']
     ['n', 'e']
   ]
-
 
 suno:
   off: [
@@ -780,7 +688,6 @@ suwi:
     ['vt', 'n']
   ]
 
-
 tan:
   off: [
     ['prep', ' by, because of, since']
@@ -796,7 +703,6 @@ taso:
     ['conj', 't']
   ]
 
-
 tawa:
   off: [
     ['prep', ' in order to, towards, for, until']
@@ -805,7 +711,6 @@ tawa:
     ['mod', ' mobile']
     ['vt', ' displace']
   ]
-
 
 telo:
   off: [
@@ -827,7 +732,6 @@ tenpo:
     ['n', ' period of time, moment, duration, situation']
   ]
 
-
 toki:
   off: [
     ['n', ' talking, speech, communication']
@@ -847,14 +751,12 @@ tomo:
     ['mod', ' domestic, household']
   ]
 
-
 tu:
   off: [
     ['mod', 'o']
     ['n', ' pair']
     ['vt', ' separate/cut/divide in two']
   ]
-
 
 unpa:
   off: [
@@ -864,13 +766,11 @@ unpa:
     ['vi', ' sex']
   ]
 
-
 uta:
   off: [
     ['n', 'h']
     ['mod', 'l']
   ]
-
 
 utala:
   off: [
@@ -878,13 +778,11 @@ utala:
     ['vt', ' strike, attack, compete against']
   ]
 
-
 walo:
   off: [
     ['mod', ' light (colour)']
     ['n', ' thing or part, whiteness, lightness']
   ]
-
 
 wan:
   off: [
@@ -893,12 +791,10 @@ wan:
     ['vt', ' make one']
   ]
 
-
 waso:
   off: [
     ['n', ' winged animal']
   ]
-
 
 wawa:
   off: [
@@ -907,14 +803,12 @@ wawa:
     ['vt', ' energize, empower']
   ]
 
-
 weka:
   off: [
     ['mod', ' absent, missing']
     ['n', 'e']
     ['vt', ' away, remove, get rid of']
   ]
-
 
 wile:
   off: [
