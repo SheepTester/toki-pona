@@ -8,12 +8,12 @@ akesi:
     ['n', 'non-cute animal, reptile, amphibian']
   ]
   add: [
-    ['noun', 'noun creeping animal, a scaly or slimy animal that creeps on land']
-    ['noun', 'noun reptile, any air-breathing cold-blooded animal that crawls on land and has scales and bones; reptile']
-    ['noun', 'noun amphibian, any cold-blooded animal with bones that lives on both land and in water; amphibian']
-    ['noun', 'noun large arthropod, a large arthropod that lives on land; scorpion']
-    ['describer', 'describer like an akesi in appearance']
-    ['describer', 'describerhaving the characteristics or properties of an akesi']
+    ['noun', 'creeping animal, a scaly or slimy animal that creeps on land']
+    ['noun', 'reptile, any air-breathing cold-blooded animal that crawls on land and has scales and bones; reptile']
+    ['noun', 'amphibian, any cold-blooded animal with bones that lives on both land and in water; amphibian']
+    ['noun', 'large arthropod, a large arthropod that lives on land; scorpion']
+    ['describer', 'like an akesi in appearance']
+    ['describer', 'having the characteristics or properties of an akesi']
   ]
 
 ala:
@@ -23,17 +23,17 @@ ala:
     ['interj', 'no!']
   ]
   add: [
-    ['describer', 'describer not, not such; no, not']
-    ['describer', 'describer no, zero, no quantity of; no, zero']
-    ['describer', 'describer un-, opposite of; un-']
-    ['noun', 'noun the state, situation or general phenomenon of being ala; absence, emptiness, negation, nothing, zero']
+    ['describer', 'not, not such; no, not']
+    ['describer', 'no, zero, no quantity of; no, zero']
+    ['describer', 'un-, opposite of; un-']
+    ['noun', 'the state, situation or general phenomenon of being ala; absence, emptiness, negation, nothing, zero']
     ['interjection', 'interjection a short, sudden or emotional expression of ala; no!']
   ]
 
 alasa:
   add: [
-    ['transitive verb', 'transitive verb to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest']
-    ['transitive verb', 'transitive verb to hunt, to pursue and kill animals to use as food and clothing; to hunt']
+    ['transitive verb', 'to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest']
+    ['transitive verb', 'to hunt, to pursue and kill animals to use as food and clothing; to hunt']
   ]
 
 ale:
@@ -551,16 +551,16 @@ pona:
     ['vt', 'improve, fix, repair, make good']
   ]
   add: [
-    ['describer beneficial; good', 'describer beneficial; good']
-    [' beneficial; good', 'describer beneficial; good']
-    ['describer benevolent; altruistic, kind, symbiotic', 'describer benevolent; altruistic, kind, symbiotic']
-    [' benevolent; altruistic, kind, symbiotic', 'describer benevolent; altruistic, kind, symbiotic']
-    ['describer helpful; cooperating', 'describer helpful; cooperating']
-    [' helpful; cooperating', 'describer helpful; cooperating']
-    ['describer ideal', 'describer ideal']
-    [' ideal', 'describer ideal']
-    ['describer conducive to overall wellness', 'describer conducive to overall wellness']
-    [' conducive to overall wellness', 'describer conducive to overall wellness']
+    ['describer beneficial; good', 'beneficial; good']
+    [' beneficial; good', 'beneficial; good']
+    ['describer benevolent; altruistic, kind, symbiotic', 'benevolent; altruistic, kind, symbiotic']
+    [' benevolent; altruistic, kind, symbiotic', 'benevolent; altruistic, kind, symbiotic']
+    ['describer helpful; cooperating', 'helpful; cooperating']
+    [' helpful; cooperating', 'helpful; cooperating']
+    ['describer ideal', 'ideal']
+    [' ideal', 'ideal']
+    ['describer conducive to overall wellness', 'conducive to overall wellness']
+    [' conducive to overall wellness', 'conducive to overall wellness']
   ]
 
 sama:
@@ -569,8 +569,8 @@ sama:
     ['prep', 'like, as, seem']
   ]
   add: [
-    ['adjective', 'adjective filling the same or a similar role; equivalent']
-    ['adjective', 'adjective self-']
+    ['adjective', 'filling the same or a similar role; equivalent']
+    ['adjective', 'self-']
   ]
 
 seli:
@@ -580,11 +580,11 @@ seli:
     ['vt', 'heat, warm up, cook']
   ]
   add: [
-    ['noun', 'noun fire, a force of nature or chemical reaction that releases heat and light, potentially causing destruction; fire, lightning, explosion, exothermic reaction']
-    ['noun', 'noun heat source, something that provides heat']
-    ['noun', 'noun cooking source, something that provides heat for preparing food']
-    ['noun', 'noun light source, something that provides light']
-    ['transitive verb', 'transitive verbto use seli on']
+    ['noun', 'fire, a force of nature or chemical reaction that releases heat and light, potentially causing destruction; fire, lightning, explosion, exothermic reaction']
+    ['noun', 'heat source, something that provides heat']
+    ['noun', 'cooking source, something that provides heat for preparing food']
+    ['noun', 'light source, something that provides light']
+    ['transitive verb', 'to use seli on']
   ]
 
 selo:
@@ -637,10 +637,10 @@ sitelen:
     ['vt', 'draw, write']
   ]
   add: [
-    ['noun', 'noun representation, a visual or tactile work that serves to show, describe, explain or remind us of something else; representation, model']
-    ['noun', 'noun picture, specific lines and shapes marked on a surface; drawing, print, painting, image, sign, sketch, outline, blueprint, etching, picture,']
-    ['noun', 'noun diagram, chart, graph']
-    ['noun', 'noun sculpture , an object made into the shape of something; carving, sculpture, figurine, replica']
+    ['noun', 'representation, a visual or tactile work that serves to show, describe, explain or remind us of something else; representation, model']
+    ['noun', 'picture, specific lines and shapes marked on a surface; drawing, print, painting, image, sign, sketch, outline, blueprint, etching, picture,']
+    ['noun', 'diagram, chart, graph']
+    ['noun', 'sculpture , an object made into the shape of something; carving, sculpture, figurine, replica']
   ]
 
 sona:
@@ -668,7 +668,7 @@ suno:
     ['n', 'sun, light']
   ]
   add: [
-    ['describer', 'describer having the qualities or characteristics of suno, shiny']
+    ['describer', 'having the qualities or characteristics of suno, shiny']
   ]
 
 supa:
@@ -676,7 +676,7 @@ supa:
     ['n', 'horizontal surface, e.g furniture, table, chair, pillow, floor']
   ]
   add: [
-    ['noun', 'noun supporting platform, surface']
+    ['noun', 'supporting platform, surface']
   ]
 
 suwi:
@@ -716,13 +716,13 @@ telo:
     ['vt', 'water, wash with water']
   ]
   add: [
-    ['noun', 'noun liquid, a flowing wet substance; liquid, fluid, water']
-    ['noun', 'noun beverage, a liquid for drinking; beverage, drink, water, juice']
-    ['noun', 'noun a liquid for washing; water']
-    ['noun', 'noun body fluid, a liquid that comes out of the body; blood, milk, saliva, semen, sweat, tears, urine']
-    ['noun', 'noun body of water, an area covered with water; bay, strait, sea, lake, river, stream']
-    ['transitive verb', 'transitive verb to use telo on; to water, rinse, wash, wet']
-    ['describer', 'describer having the characteristics or properties of telo; wet, liquid']
+    ['noun', 'liquid, a flowing wet substance; liquid, fluid, water']
+    ['noun', 'beverage, a liquid for drinking; beverage, drink, water, juice']
+    ['noun', 'a liquid for washing; water']
+    ['noun', 'body fluid, a liquid that comes out of the body; blood, milk, saliva, semen, sweat, tears, urine']
+    ['noun', 'body of water, an area covered with water; bay, strait, sea, lake, river, stream']
+    ['transitive verb', 'to use telo on; to water, rinse, wash, wet']
+    ['describer', 'having the characteristics or properties of telo; wet, liquid']
   ]
 
 tenpo:
@@ -739,8 +739,8 @@ toki:
     ['interj', 'hello! hi!']
   ]
   add: [
-    ['transitive verb', 'transitive verb to give and receive (e: information) (tawa: with); to communicate']
-    ['transitive verb', 'transitive verb to put together (e: thoughts or ideas); to think out']
+    ['transitive verb', 'to give and receive (e: information) (tawa: with); to communicate']
+    ['transitive verb', 'to put together (e: thoughts or ideas); to think out']
   ]
 
 tomo:
