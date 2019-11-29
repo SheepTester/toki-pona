@@ -1,818 +1,816 @@
 a:
   off: [
-    ['interj', ' ha, uh, oh, ooh, aw, well (emotion word)']
+    ['interj', 'ah, ha, uh, oh, ooh, aw, well (emotion word)']
   ]
 
 akesi:
   off: [
-    ['n', ' animal, reptile, amphibian']
+    ['n', 'non-cute animal, reptile, amphibian']
   ]
   add: [
-    ['noun', ' creeping animal, a scaly or slimy animal that creeps on land']
-    ['noun', ' reptile, any air-breathing cold-blooded animal that crawls on land and has scales and bones; reptile']
-    ['noun', ' amphibian, any cold-blooded animal with bones that lives on both land and in water; amphibian']
-    ['noun', ' large arthropod, a large arthropod that lives on land; scorpion']
-    ['describer', ' like an akesi in appearance']
-    ['describer', ' the characteristics or properties of an akesi ']
+    ['noun', 'noun creeping animal, a scaly or slimy animal that creeps on land']
+    ['noun', 'noun reptile, any air-breathing cold-blooded animal that crawls on land and has scales and bones; reptile']
+    ['noun', 'noun amphibian, any cold-blooded animal with bones that lives on both land and in water; amphibian']
+    ['noun', 'noun large arthropod, a large arthropod that lives on land; scorpion']
+    ['describer', 'describer like an akesi in appearance']
+    ['describer', 'describerhaving the characteristics or properties of an akesi']
   ]
 
 ala:
   off: [
-    ['mod', ' not, none, un-']
-    ['n', ' negation, zero']
-    ['interj', '!']
+    ['mod', 'no, not, none, un-']
+    ['n', 'nothing, negation, zero']
+    ['interj', 'no!']
   ]
   add: [
-    ['describer', ' not, not such; no, not']
-    ['describer', ' no, zero, no quantity of; no, zero']
-    ['describer', ' un-, opposite of; un-']
-    ['noun', ' the state, situation or general phenomenon of being ala; absence, emptiness, negation, nothing, zero']
-    ['interjection', ' a short, sudden or emotional expression of ala; no! ']
+    ['describer', 'describer not, not such; no, not']
+    ['describer', 'describer no, zero, no quantity of; no, zero']
+    ['describer', 'describer un-, opposite of; un-']
+    ['noun', 'noun the state, situation or general phenomenon of being ala; absence, emptiness, negation, nothing, zero']
+    ['interjection', 'interjection a short, sudden or emotional expression of ala; no!']
   ]
 
 alasa:
-
   add: [
-    ['transitive verb', ' verb to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest']
-    ['transitive verb', ' verb to hunt, to pursue and kill animals to use as food and clothing; to hunt']
+    ['transitive verb', 'transitive verb to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest']
+    ['transitive verb', 'transitive verb to hunt, to pursue and kill animals to use as food and clothing; to hunt']
   ]
+
+ale:
+  see: 'ali'
 
 ali:
   off: [
-    ['n', ' anything, life, the universe']
-    ['mod', ' every, complete, whole']
+    ['n', 'everything, anything, life, the universe']
+    ['mod', 'all, every, complete, whole']
   ]
 
 anpa:
   off: [
-    ['n', ' lower part, under, below, floor, beneath']
-    ['mod', ' lower, bottom, down']
+    ['n', 'bottom, lower part, under, below, floor, beneath']
+    ['mod', 'low, lower, bottom, down']
   ]
 
 ante:
   off: [
-    ['n', 'e']
-    ['mod', 't']
-    ['conj', ' or else']
-    ['vt', ' alter, modify']
+    ['n', 'difference']
+    ['mod', 'different']
+    ['conj', 'otherwise, or else']
+    ['vt', 'change, alter, modify']
   ]
 
 anu:
   off: [
-    ['conj', 'r']
+    ['conj', 'or']
   ]
 
 awen:
   off: [
-    ['vi', ' wait, remain']
-    ['vt', 'p']
-    ['mod', ' stationary, permanent, sedentary']
+    ['vi', 'stay, wait, remain']
+    ['vt', 'keep']
+    ['mod', 'remaining, stationary, permanent, sedentary']
   ]
 
 e:
   off: [
-    ['sep', ' a direct object)']
+    ['sep', '(introduces a direct object)']
   ]
 
 en:
   off: [
-    ['conj', ' (used to coordinate head nouns)']
+    ['conj', 'and (used to coordinate head nouns)']
   ]
 
 esun:
   off: [
-    ['n', ' shop']
+    ['n', 'market, shop']
   ]
 
 ijo:
   off: [
-    ['n', ' something, stuff, anything, object']
-    ['mod', ' something']
-    ['vt', 'y']
+    ['n', 'thing, something, stuff, anything, object']
+    ['mod', 'of something']
+    ['vt', 'objectify']
   ]
 
 ike:
   off: [
-    ['mod', ' negative, wrong, evil, overly complex, (figuratively) unhealthy']
-    ['interj', ' dear! woe! alas!']
-    ['n', ' badness, evil']
-    ['vt', ' make bad, to worsen, to have a negative effect upon']
-    ['vi', ' be bad, to suck']
+    ['mod', 'bad, negative, wrong, evil, overly complex, (figuratively) unhealthy']
+    ['interj', 'oh dear! woe! alas!']
+    ['n', 'negativity, badness, evil']
+    ['vt', 'to make bad, to worsen, to have a negative effect upon']
+    ['vi', 'to be bad, to suck']
   ]
 
 ilo:
   off: [
-    ['n', ' device, machine, thing used for a specific purpose']
+    ['n', 'tool, device, machine, thing used for a specific purpose']
   ]
 
 insa:
   off: [
-    ['n', ' inner world, centre, stomach']
-    ['mod', ' internal']
+    ['n', 'inside, inner world, centre, stomach']
+    ['mod', 'inner, internal']
   ]
 
 jaki:
   off: [
-    ['mod', ' gross, filthy']
-    ['n', ' pollution, garbage, filth']
-    ['vt', ' dirty']
-    ['interj', ' yuck!']
+    ['mod', 'dirty, gross, filthy']
+    ['n', 'dirt, pollution, garbage, filth']
+    ['vt', 'pollute, dirty']
+    ['interj', 'ew! yuck!']
   ]
 
 jan:
   off: [
-    ['n', ' people, human, being, somebody, anybody']
-    ['mod', ' somebody\'s, personal, of people']
-    ['vt', ' humanize, personalize']
+    ['n', 'person, people, human, being, somebody, anybody']
+    ['mod', 'human, somebody\'s, personal, of people']
+    ['vt', 'personify, humanize, personalize']
   ]
 
 jelo:
   off: [
-    ['mod', ' light green']
+    ['mod', 'yellow, light green']
   ]
 
 jo:
   off: [
-    ['vt', ' contain']
-    ['n', 'g']
-    ['kama', ' get, take, obtain']
+    ['vt', 'have, contain']
+    ['n', 'having']
+    ['kama', 'receive, get, take, obtain']
   ]
 
 kala:
   off: [
-    ['n', ' sea creature']
+    ['n', 'fish, sea creature']
   ]
 
 kalama:
   off: [
-    ['n', ' noise, voice']
-    ['vi', ' noise']
-    ['vt', ' ring, play (an instrument)']
+    ['n', 'sound, noise, voice']
+    ['vi', 'make noise']
+    ['vt', 'sound, ring, play (an instrument)']
   ]
 
 kama:
   off: [
-    ['vi', ' become, arrive, happen, pursue actions to arrive to (a certain state), manage to, start to']
-    ['n', ' happening, chance, arrival, beginning']
-    ['mod', ' future']
-    ['vt', ' about, summon']
+    ['vi', 'come, become, arrive, happen, pursue actions to arrive to (a certain state), manage to, start to']
+    ['n', 'event, happening, chance, arrival, beginning']
+    ['mod', 'coming, future']
+    ['vt', 'bring about, summon']
   ]
 
 kasi:
   off: [
-    ['n', ' leaf, herb, tree, wood']
+    ['n', 'plant, leaf, herb, tree, wood']
   ]
 
 ken:
   off: [
-    ['vi', ' is able to, is allowed to, may, is possible']
-    ['n', ' ability, power to do things, permission']
-    ['vt', ' possible, enable, allow, permit']
-    ['cont', ' is possible that']
+    ['vi', 'can, is able to, is allowed to, may, is possible']
+    ['n', 'possibility, ability, power to do things, permission']
+    ['vt', 'make possible, enable, allow, permit']
+    ['cont', 'it is possible that']
   ]
 
 kepeken:
   off: [
-    ['vt', 'e']
-    ['prep', 'h']
+    ['vt', 'use']
+    ['prep', 'with']
   ]
 
 kili:
   off: [
-    ['n', ' pulpy vegetable, mushroom']
+    ['n', 'fruit, pulpy vegetable, mushroom']
   ]
 
 kin:
   off: [
-    ['mod', ' too, even, indeed (emphasizes the word(s) before it)']
+    ['mod', 'also, too, even, indeed (emphasizes the word(s) before it)']
   ]
 
 kipisi:
-  idk: [
-    ['???', 'to cut']
-  ]
+  notoriginal: true
 
 kiwen:
   off: [
-    ['mod', ' solid, stone-like, made of stone or metal']
-    ['n', ' thing, rock, stone, metal, mineral, clay']
+    ['mod', 'hard, solid, stone-like, made of stone or metal']
+    ['n', 'hard thing, rock, stone, metal, mineral, clay']
   ]
 
 ko:
   off: [
-    ['n', ' or squishy substance, e.g. paste, powder, gum']
+    ['n', 'semi-solid or squishy substance, e.g. paste, powder, gum']
   ]
 
 kon:
   off: [
-    ['n', ' wind, smell, soul']
-    ['mod', ' ethereal, gaseous']
+    ['n', 'air, wind, smell, soul']
+    ['mod', 'air-like, ethereal, gaseous']
   ]
 
 kule:
   off: [
-    ['n', ' paint']
-    ['mod', 'l']
-    ['vt', ' paint']
+    ['n', 'colour, paint']
+    ['mod', 'colourful']
+    ['vt', 'colour, paint']
   ]
 
 kute:
   off: [
-    ['vt', ' hear']
-    ['mod', ' hearing']
+    ['vt', 'listen, hear']
+    ['mod', 'auditory, hearing']
   ]
 
 kulupu:
   off: [
-    ['n', ' community, society, company, people']
-    ['mod', ' shared, public, of the society']
+    ['n', 'group, community, society, company, people']
+    ['mod', 'communal, shared, public, of the society']
   ]
 
 la:
   off: [
-    ['sep', ' adverb or phrase of context and sentence)']
+    ['sep', '(between adverb or phrase of context and sentence)']
   ]
 
 lape:
   off: [
-    ['mod', ' of sleep']
+    ['mod', 'sleeping, of sleep']
   ]
   add: [
-    ['n, vi', ' vi	sleep, rest']
+    ['n, vi', 'sleep, rest']
   ]
 
 laso:
   off: [
-    ['mod', ' blue-green']
+    ['mod', 'blue, blue-green']
   ]
 
 lawa:
   off: [
-    ['n', ' mind']
-    ['mod', ' leading, in charge']
-    ['vt', ' control, rule, steer']
+    ['n', 'head, mind']
+    ['mod', 'main, leading, in charge']
+    ['vt', 'lead, control, rule, steer']
   ]
 
 len:
   off: [
-    ['n', ' cloth, fabric']
+    ['n', 'clothing, cloth, fabric']
   ]
 
 lete:
   off: [
-    ['n', 'd']
-    ['mod', ' uncooked']
-    ['vt', ' down, chill']
+    ['n', 'cold']
+    ['mod', 'cold, uncooked']
+    ['vt', 'cool down, chill']
   ]
 
 li:
   off: [
-    ['sep', ' any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)"']
+    ['sep', '"(between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)"']
   ]
 
 lili:
   off: [
-    ['mod', ' little, young, a bit, short, few, less']
-    ['vt', ' shorten, shrink, lessen']
+    ['mod', 'small, little, young, a bit, short, few, less']
+    ['vt', 'reduce, shorten, shrink, lessen']
   ]
 
 linja:
   off: [
-    ['n', ' very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain']
+    ['n', 'long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain']
   ]
 
 lipu:
   off: [
-    ['n', ' and bendable thing, e.g. paper, card, ticket']
+    ['n', 'flat and bendable thing, e.g. paper, card, ticket']
   ]
 
 loje:
   off: [
-    ['mod', 'd']
+    ['mod', 'red']
   ]
 
 lon:
   off: [
-    ['prep', ' (located) in/at/on']
-    ['vi', ' there, be present, be real/true, exist, be awake']
+    ['prep', 'be (located) in/at/on']
+    ['vi', 'be there, be present, be real/true, exist, be awake']
   ]
 
 luka:
   off: [
-    ['n', ' arm']
+    ['n', 'hand, arm']
   ]
 
 lukin:
   off: [
-    ['vt', ' look at, watch, read']
-    ['vi', ' watch out, pay attention']
-    ['mod', ')']
+    ['vt', 'see, look at, watch, read']
+    ['vi', 'look, watch out, pay attention']
+    ['mod', 'visual(ly)']
   ]
 
 lupa:
   off: [
-    ['n', ' orifice, window, door']
+    ['n', 'hole, orifice, window, door']
   ]
 
 ma:
   off: [
-    ['n', ' earth, country, (outdoor) area']
+    ['n', 'land, earth, country, (outdoor) area']
   ]
 
 mama:
   off: [
-    ['n', ' mother, father']
-    ['mod', ' the parent, parental, maternal, fatherly']
+    ['n', 'parent, mother, father']
+    ['mod', 'of the parent, parental, maternal, fatherly']
   ]
 
 mani:
   off: [
-    ['n', ' material wealth, currency, dollar, capital']
+    ['n', 'money, material wealth, currency, dollar, capital']
   ]
 
 meli:
   off: [
-    ['n', ' female, girl, wife, girlfriend']
-    ['mod', ' feminine, womanly']
+    ['n', 'woman, female, girl, wife, girlfriend']
+    ['mod', 'female, feminine, womanly']
   ]
 
 mi:
   off: [
-    ['n', ' we']
-    ['mod', ' our']
+    ['n', 'I, we']
+    ['mod', 'my, our']
   ]
 
 mije:
   off: [
-    ['n', ' male, boy, husband, boyfriend']
-    ['mod', ' masculine, manly']
+    ['n', 'man, male, boy, husband, boyfriend']
+    ['mod', 'male, masculine, manly']
   ]
 
 moku:
   off: [
-    ['n', ' meal']
-    ['vt', ' drink, swallow, ingest, consume']
+    ['n', 'food, meal']
+    ['vt', 'eat, drink, swallow, ingest, consume']
   ]
 
 moli:
   off: [
-    ['n', 'h']
-    ['vi', ' be dead']
-    ['vt', 'l']
-    ['mod', ' deadly, fatal']
+    ['n', 'death']
+    ['vi', 'die, be dead']
+    ['vt', 'kill']
+    ['mod', 'dead, deadly, fatal']
   ]
 
 monsi:
   off: [
-    ['n', ' rear end, butt, behind']
-    ['mod', ' rear']
+    ['n', 'back, rear end, butt, behind']
+    ['mod', 'back, rear']
   ]
 
 mu:
   off: [
-    ['interj', ' meow! moo! etc. (cute animal noise)']
+    ['interj', 'woof! meow! moo! etc. (cute animal noise)']
   ]
 
 mun:
   off: [
-    ['n', 'n']
-    ['mod', 'r']
+    ['n', 'moon']
+    ['mod', 'lunar']
   ]
 
 musi:
   off: [
-    ['n', ' playing, game, recreation, art, entertainment']
-    ['mod', ' fun, recreational']
-    ['vi', ' have fun']
-    ['vt', ' entertain']
+    ['n', 'fun, playing, game, recreation, art, entertainment']
+    ['mod', 'artful, fun, recreational']
+    ['vi', 'play, have fun']
+    ['vt', 'amuse, entertain']
   ]
 
 mute:
   off: [
-    ['mod', ' very, much, several, a lot, abundant, numerous, more']
-    ['n', ' quantity']
-    ['vt', ' many or much']
+    ['mod', 'many, very, much, several, a lot, abundant, numerous, more']
+    ['n', 'amount, quantity']
+    ['vt', 'make many or much']
   ]
 
 namako:
-  idk: [
-    ['???', 'extra, addtional, spice']
-  ]
+  new: true
 
 nanpa:
   off: [
-    ['n', 'r']
-    ['oth', ' (ordinal numbers)']
+    ['n', 'number']
+    ['oth', '-th (ordinal numbers)']
   ]
 
 nasa:
   off: [
-    ['mod', ' crazy, foolish, drunk, strange, stupid, weird']
-    ['vt', ' crazy, make weird']
+    ['mod', 'silly, crazy, foolish, drunk, strange, stupid, weird']
+    ['vt', 'drive crazy, make weird']
   ]
 
 nasin:
   off: [
-    ['n', ' manner, custom, road, path, doctrine, system, method']
+    ['n', 'way, manner, custom, road, path, doctrine, system, method']
   ]
 
 nena:
   off: [
-    ['n', ' nose, hill, mountain, button']
+    ['n', 'bump, nose, hill, mountain, button']
   ]
 
 ni:
   off: [
-    ['mod', ' that']
+    ['mod', 'this, that']
   ]
 
 nimi:
   off: [
-    ['n', ' name']
+    ['n', 'word, name']
   ]
 
 noka:
   off: [
-    ['n', ' foot']
+    ['n', 'leg, foot']
   ]
 
 o:
   off: [
-    ['sep', ' (vocative or imperative)']
-    ['interj', ' (calling somebody\'s attention)']
+    ['sep', 'O (vocative or imperative)']
+    ['interj', 'hey! (calling somebody\'s attention)']
   ]
 
 oko:
   off: [
-    ['n', 'e']
+    ['n', 'eye']
   ]
 
 olin:
   off: [
-    ['n', 'e']
-    ['mod', 'e']
-    ['vt', ' love (a person)']
+    ['n', 'love']
+    ['mod', 'love']
+    ['vt', 'to love (a person)']
   ]
 
 ona:
   off: [
-    ['n', ' he, it, they']
-    ['mod', ' his, its, their']
+    ['n', 'she, he, it, they']
+    ['mod', 'her, his, its, their']
   ]
 
 open:
   off: [
-    ['vt', ' turn on']
+    ['vt', 'open, turn on']
   ]
 
 pakala:
   off: [
-    ['n', ' accident, mistake, destruction, damage, breaking']
-    ['vt', ' up, fuck up, botch, ruin, break, hurt, injure, damage, spoil, ruin']
-    ['vi', ' up, fall apart, break']
-    ['interj', ' fuck!']
+    ['n', 'blunder, accident, mistake, destruction, damage, breaking']
+    ['vt', 'screw up, fuck up, botch, ruin, break, hurt, injure, damage, spoil, ruin']
+    ['vi', 'screw up, fall apart, break']
+    ['interj', 'damn! fuck!']
   ]
 
 pali:
   off: [
-    ['n', ' work, deed, project']
-    ['mod', ' work-related, operating, working']
-    ['vt', ' make, build, create']
-    ['vi', ' work, function']
+    ['n', 'activity, work, deed, project']
+    ['mod', 'active, work-related, operating, working']
+    ['vt', 'do, make, build, create']
+    ['vi', 'act, work, function']
   ]
 
 palisa:
   off: [
-    ['n', ' mostly hard object, e.g. rod, stick, branch']
+    ['n', 'long, mostly hard object, e.g. rod, stick, branch']
   ]
 
 pan:
   off: [
-    ['n', ' cereal']
+    ['n', 'grain, cereal']
   ]
 
 pana:
   off: [
-    ['vt', ' put, send, place, release, emit, cause']
-    ['n', ' transfer, exchange']
+    ['vt', 'give, put, send, place, release, emit, cause']
+    ['n', 'giving, transfer, exchange']
   ]
 
 pata:
   off: [
-    ['n', ' brother']
+    ['n', 'n brother']
   ]
 
 pi:
   off: [
-    ['sep', ' belonging to']
+    ['sep', 'of, belonging to']
   ]
 
 pilin:
   off: [
-    ['n', ' emotion, heart']
-    ['vi', 'l']
-    ['vt', ' think, sense, touch']
+    ['n', 'feelings, emotion, heart']
+    ['vi', 'feel']
+    ['vt', 'feel, think, sense, touch']
   ]
 
 pimeja:
   off: [
-    ['mod', ' dark']
-    ['n', ' shadows']
-    ['vt', 'n']
+    ['mod', 'black, dark']
+    ['n', 'darkness, shadows']
+    ['vt', 'darken']
   ]
 
 pini:
   off: [
-    ['n', ' tip']
-    ['mod', ' finished, past, done, ago']
-    ['vt', ' close, end, turn off']
+    ['n', 'end, tip']
+    ['mod', 'completed, finished, past, done, ago']
+    ['vt', 'finish, close, end, turn off']
   ]
 
 pipi:
   off: [
-    ['n', ' insect, spider']
+    ['n', 'bug, insect, spider']
   ]
 
 poka:
   off: [
-    ['n', ' hip, next to']
-    ['prep', ' the accompaniment of, with']
-    ['mod', 'g']
+    ['n', 'side, hip, next to']
+    ['prep', 'in the accompaniment of, with']
+    ['mod', 'neighbouring']
   ]
 
 poki:
   off: [
-    ['n', ' box, bowl, cup, glass']
+    ['n', 'container, box, bowl, cup, glass']
   ]
 
 pona:
   off: [
-    ['n', ' simplicity, positivity']
-    ['mod', ' simple, positive, nice, correct, right']
-    ['interj', ' good! thanks! OK! cool! yay!']
-    ['vt', ' fix, repair, make good']
+    ['n', 'good, simplicity, positivity']
+    ['mod', 'good, simple, positive, nice, correct, right']
+    ['interj', 'great! good! thanks! OK! cool! yay!']
+    ['vt', 'improve, fix, repair, make good']
   ]
   add: [
-    ['describer beneficial; good', ' beneficial; good']
-    [' beneficial; good', ' beneficial; good']
-    ['describer benevolent; altruistic, kind, symbiotic', ' benevolent; altruistic, kind, symbiotic']
-    [' benevolent; altruistic, kind, symbiotic', ' benevolent; altruistic, kind, symbiotic']
-    ['describer helpful; cooperating', ' helpful; cooperating']
-    [' helpful; cooperating', ' helpful; cooperating']
-    ['describer ideal', ' ideal']
-    [' ideal', ' ideal']
-    ['describer conducive to overall wellness', ' conducive to overall wellness']
-    [' conducive to overall wellness', ' conducive to overall wellness']
+    ['describer beneficial; good', 'describer beneficial; good']
+    [' beneficial; good', 'describer beneficial; good']
+    ['describer benevolent; altruistic, kind, symbiotic', 'describer benevolent; altruistic, kind, symbiotic']
+    [' benevolent; altruistic, kind, symbiotic', 'describer benevolent; altruistic, kind, symbiotic']
+    ['describer helpful; cooperating', 'describer helpful; cooperating']
+    [' helpful; cooperating', 'describer helpful; cooperating']
+    ['describer ideal', 'describer ideal']
+    [' ideal', 'describer ideal']
+    ['describer conducive to overall wellness', 'describer conducive to overall wellness']
+    [' conducive to overall wellness', 'describer conducive to overall wellness']
   ]
 
 sama:
   off: [
-    ['mod', ' similar, equal, of equal status or position']
-    ['prep', ' as, seem']
+    ['mod', 'same, similar, equal, of equal status or position']
+    ['prep', 'like, as, seem']
   ]
   add: [
-    ['adjective', ' filling the same or a similar role; equivalent']
-    ['adjective', ' self-']
+    ['adjective', 'adjective filling the same or a similar role; equivalent']
+    ['adjective', 'adjective self-']
   ]
 
 seli:
   off: [
-    ['n', ' warmth, heat']
-    ['mod', ' warm, cooked']
-    ['vt', ' warm up, cook']
+    ['n', 'fire, warmth, heat']
+    ['mod', 'hot, warm, cooked']
+    ['vt', 'heat, warm up, cook']
   ]
   add: [
-    ['noun', ' fire, a force of nature or chemical reaction that releases heat and light, potentially causing destruction; fire, lightning, explosion, exothermic reaction']
-    ['noun', ' heat source, something that provides heat']
-    ['noun', ' cooking source, something that provides heat for preparing food']
-    ['noun', ' light source, something that provides light']
-    ['transitive verb', ' verbto use seli on']
+    ['noun', 'noun fire, a force of nature or chemical reaction that releases heat and light, potentially causing destruction; fire, lightning, explosion, exothermic reaction']
+    ['noun', 'noun heat source, something that provides heat']
+    ['noun', 'noun cooking source, something that provides heat for preparing food']
+    ['noun', 'noun light source, something that provides light']
+    ['transitive verb', 'transitive verbto use seli on']
   ]
 
 selo:
   off: [
-    ['n', ' surface, skin, shell, bark, shape, peel']
+    ['n', 'outside, surface, skin, shell, bark, shape, peel']
   ]
 
 seme:
   off: [
-    ['oth', ' which, wh- (question word)']
+    ['oth', 'what, which, wh- (question word)']
   ]
 
 sewi:
   off: [
-    ['n', ' up, above, top, over, on']
-    ['mod', ' elevated, religious, formal']
+    ['n', 'high, up, above, top, over, on']
+    ['mod', 'superior, elevated, religious, formal']
   ]
 
 sijelo:
   off: [
-    ['n', ' physical state']
+    ['n', 'body, physical state']
   ]
 
 sike:
   off: [
-    ['n', ' wheel, sphere, ball, cycle']
-    ['mod', ' cyclical']
+    ['n', 'circle, wheel, sphere, ball, cycle']
+    ['mod', 'round, cyclical']
   ]
 
 sin:
   off: [
-    ['mod', ' fresh, another, more']
-    ['vt', ' renovate, freshen']
+    ['mod', 'new, fresh, another, more']
+    ['vt', 'renew, renovate, freshen']
   ]
 
 sina:
   off: [
-    ['n', 'u']
-    ['mod', 'r']
+    ['n', 'you']
+    ['mod', 'your']
   ]
 
 sinpin:
   off: [
-    ['n', ' chest, torso, face, wall']
+    ['n', 'front, chest, torso, face, wall']
   ]
 
 sitelen:
   off: [
-    ['n', ' image']
-    ['vt', ' write']
+    ['n', 'picture, image']
+    ['vt', 'draw, write']
   ]
   add: [
-    ['noun', ' representation, a visual or tactile work that serves to show, describe, explain or remind us of something else; representation, model']
-    ['noun', ' picture, specific lines and shapes marked on a surface; drawing, print, painting, image, sign, sketch, outline, blueprint, etching, picture, ']
-    ['noun', ' diagram, chart, graph']
-    ['noun', ' sculpture , an object made into the shape of something; carving, sculpture, figurine, replica']
+    ['noun', 'noun representation, a visual or tactile work that serves to show, describe, explain or remind us of something else; representation, model']
+    ['noun', 'noun picture, specific lines and shapes marked on a surface; drawing, print, painting, image, sign, sketch, outline, blueprint, etching, picture,']
+    ['noun', 'noun diagram, chart, graph']
+    ['noun', 'noun sculpture , an object made into the shape of something; carving, sculpture, figurine, replica']
   ]
 
 sona:
   off: [
-    ['n', ' wisdom, intelligence, understanding']
-    ['vt', ' understand, know how to']
-    ['vi', ' understand']
-    ['kama', ' study']
+    ['n', 'knowledge, wisdom, intelligence, understanding']
+    ['vt', 'know, understand, know how to']
+    ['vi', 'know, understand']
+    ['kama', 'learn, study']
   ]
 
 soweli:
   off: [
-    ['n', ' especially land mammal, lovable animal']
+    ['n', 'animal, especially land mammal, lovable animal']
   ]
 
 suli:
   off: [
-    ['mod', ' tall, long, adult, important']
-    ['vt', ' lengthen']
-    ['n', 'e']
+    ['mod', 'big, tall, long, adult, important']
+    ['vt', 'enlarge, lengthen']
+    ['n', 'size']
   ]
 
 suno:
   off: [
-    ['n', ' light']
+    ['n', 'sun, light']
   ]
   add: [
-    ['describer', ' having the qualities or characteristics of suno, shiny']
+    ['describer', 'describer having the qualities or characteristics of suno, shiny']
   ]
 
 supa:
   off: [
-    ['n', ' surface, e.g furniture, table, chair, pillow, floor']
+    ['n', 'horizontal surface, e.g furniture, table, chair, pillow, floor']
   ]
   add: [
-    ['noun', ' supporting platform, surface']
+    ['noun', 'noun supporting platform, surface']
   ]
 
 suwi:
   off: [
-    ['n', ' sweet food']
-    ['mod', ' cute']
-    ['vt', 'n']
+    ['n', 'candy, sweet food']
+    ['mod', 'sweet, cute']
+    ['vt', 'sweeten']
   ]
 
 tan:
   off: [
-    ['prep', ' by, because of, since']
-    ['n', ' cause']
+    ['prep', 'from, by, because of, since']
+    ['n', 'origin, cause']
   ]
   add: [
-    ['relation word', ' word, origin, indicates the place of origin']
+    ['relation word', 'relation word, origin, indicates the place of origin']
   ]
 
 taso:
   off: [
-    ['mod', ' sole']
-    ['conj', 't']
+    ['mod', 'only, sole']
+    ['conj', 'but']
   ]
 
 tawa:
   off: [
-    ['prep', ' in order to, towards, for, until']
-    ['vi', ' to, walk, travel, move, leave']
-    ['n', ' transportation']
-    ['mod', ' mobile']
-    ['vt', ' displace']
+    ['prep', 'to, in order to, towards, for, until']
+    ['vi', 'go to, walk, travel, move, leave']
+    ['n', 'movement, transportation']
+    ['mod', 'moving, mobile']
+    ['vt', 'move, displace']
   ]
 
 telo:
   off: [
-    ['n', ' liquid, juice, sauce']
-    ['vt', ' wash with water']
+    ['n', 'water, liquid, juice, sauce']
+    ['vt', 'water, wash with water']
   ]
   add: [
-    ['noun', ' liquid, a flowing wet substance; liquid, fluid, water']
-    ['noun', ' beverage, a liquid for drinking; beverage, drink, water, juice']
-    ['noun', ' a liquid for washing; water']
-    ['noun', ' body fluid, a liquid that comes out of the body; blood, milk, saliva, semen, sweat, tears, urine']
-    ['noun', ' body of water, an area covered with water; bay, strait, sea, lake, river, stream']
-    ['transitive verb', ' verb to use telo on; to water, rinse, wash, wet']
-    ['describer', ' having the characteristics or properties of telo; wet, liquid']
+    ['noun', 'noun liquid, a flowing wet substance; liquid, fluid, water']
+    ['noun', 'noun beverage, a liquid for drinking; beverage, drink, water, juice']
+    ['noun', 'noun a liquid for washing; water']
+    ['noun', 'noun body fluid, a liquid that comes out of the body; blood, milk, saliva, semen, sweat, tears, urine']
+    ['noun', 'noun body of water, an area covered with water; bay, strait, sea, lake, river, stream']
+    ['transitive verb', 'transitive verb to use telo on; to water, rinse, wash, wet']
+    ['describer', 'describer having the characteristics or properties of telo; wet, liquid']
   ]
 
 tenpo:
   off: [
-    ['n', ' period of time, moment, duration, situation']
+    ['n', 'time, period of time, moment, duration, situation']
   ]
 
 toki:
   off: [
-    ['n', ' talking, speech, communication']
-    ['mod', ' verbal']
-    ['vt', 'y']
-    ['vi', ' chat, communicate']
-    ['interj', ' hi!']
+    ['n', 'language, talking, speech, communication']
+    ['mod', 'talking, verbal']
+    ['vt', 'say']
+    ['vi', 'talk, chat, communicate']
+    ['interj', 'hello! hi!']
   ]
   add: [
-    ['transitive verb', ' verb to give and receive (e: information) (tawa: with); to communicate']
-    ['transitive verb', ' verb to put together (e: thoughts or ideas); to think out']
+    ['transitive verb', 'transitive verb to give and receive (e: information) (tawa: with); to communicate']
+    ['transitive verb', 'transitive verb to put together (e: thoughts or ideas); to think out']
   ]
 
 tomo:
   off: [
-    ['n', ' constructed space, e.g. house, home, room, building']
-    ['mod', ' domestic, household']
+    ['n', 'indoor constructed space, e.g. house, home, room, building']
+    ['mod', 'urban, domestic, household']
   ]
 
 tu:
   off: [
-    ['mod', 'o']
-    ['n', ' pair']
-    ['vt', ' separate/cut/divide in two']
+    ['mod', 'two']
+    ['n', 'duo, pair']
+    ['vt', 'double, separate/cut/divide in two']
   ]
 
 unpa:
   off: [
-    ['n', ' sexuality']
-    ['mod', ' sexual']
-    ['vt', ' sex with, sleep with, fuck']
-    ['vi', ' sex']
+    ['n', 'sex, sexuality']
+    ['mod', 'erotic, sexual']
+    ['vt', 'have sex with, sleep with, fuck']
+    ['vi', 'have sex']
   ]
 
 uta:
   off: [
-    ['n', 'h']
-    ['mod', 'l']
+    ['n', 'mouth']
+    ['mod', 'oral']
   ]
 
 utala:
   off: [
-    ['n', ' disharmony, competition, fight, war, battle, attack, blow, argument, physical or verbal violence']
-    ['vt', ' strike, attack, compete against']
+    ['n', 'conflict, disharmony, competition, fight, war, battle, attack, blow, argument, physical or verbal violence']
+    ['vt', 'hit, strike, attack, compete against']
   ]
 
 walo:
   off: [
-    ['mod', ' light (colour)']
-    ['n', ' thing or part, whiteness, lightness']
+    ['mod', 'white, light (colour)']
+    ['n', 'white thing or part, whiteness, lightness']
   ]
 
 wan:
   off: [
-    ['mod', ' a']
-    ['n', ' element, particle, part, piece']
-    ['vt', ' make one']
+    ['mod', 'one, a']
+    ['n', 'unit, element, particle, part, piece']
+    ['vt', 'unite, make one']
   ]
 
 waso:
   off: [
-    ['n', ' winged animal']
+    ['n', 'bird, winged animal']
   ]
 
 wawa:
   off: [
-    ['n', ' strength, power']
-    ['mod', ' strong, fierce, intense, sure, confident']
-    ['vt', ' energize, empower']
+    ['n', 'energy, strength, power']
+    ['mod', 'energetic, strong, fierce, intense, sure, confident']
+    ['vt', 'strengthen, energize, empower']
   ]
 
 weka:
   off: [
-    ['mod', ' absent, missing']
-    ['n', 'e']
-    ['vt', ' away, remove, get rid of']
+    ['mod', 'away, absent, missing']
+    ['n', 'absence']
+    ['vt', 'throw away, remove, get rid of']
   ]
 
 wile:
   off: [
-    ['vt', ' want, need, wish, have to, must, will, should']
-    ['n', ' need, will']
-    ['mod', 'y']
+    ['vt', 'to want, need, wish, have to, must, will, should']
+    ['n', 'desire, need, will']
+    ['mod', 'necessary']
   ]

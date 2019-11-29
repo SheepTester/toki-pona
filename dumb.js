@@ -8,7 +8,7 @@ const off = []
 const add = []
 defs.map(a => {
 const defin = a.parentNode.textContent
-const definit = defin.slice(defin.indexOf(' ')).replace(/'/g, '\\\'')
+const definit = defin.slice(defin.indexOf('\t') + 1).replace(/'/g, '\\\'').trim()
 if (official.includes(a.textContent)) {
 off.push([a.textContent, definit])
 } else {
