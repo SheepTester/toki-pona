@@ -1,0 +1,14 @@
+{
+  "name": "toki-pona",
+  "version": "1.0.0",
+  "description": "erjhgbdfgfgh REEE",
+  "main": "dumb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cson": "^6.4.0"
+  }
+}

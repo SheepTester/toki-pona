@@ -8,7 +8,7 @@ const off = []
 const add = []
 defs.map(a => {
 const defin = a.parentNode.textContent
-const definit = defin.slice(defin.indexOf(' '))
+const definit = defin.slice(defin.indexOf(' ')).replace(/'/g, '\\\'')
 if (official.includes(a.textContent)) {
 off.push([a.textContent, definit])
 } else {
@@ -16,10 +16,14 @@ add.push([a.textContent, definit])
 }
 })
 s += `${term}:
-  off:
+${off.length ?
+`  off: [
 ${off.map(([a, b]) => `    ['${a}', '${b}']`).join('\n')}
-  add:
+  ]`:''}
+${add.length ?
+`  add: [
 ${add.map(([a, b]) => `    ['${a}', '${b}']`).join('\n')}
+  ]`:''}
 
 `
 
