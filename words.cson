@@ -1,0 +1,53 @@
+a:
+  off: [
+    ['interj', 'ah, ha, uh, oh, ooh, aw, well (emotion word)']
+  ]
+
+akesi:
+  off: [
+    ['n', 'non-cute animal, reptile, amphibian']
+  ]
+  add: [
+    ['n', 'creeping animal, a scaly or slimy animal that creeps on land']
+    ['n', 'reptile, any air-breathing cold-blooded animal that crawls on land and has scales and bones; reptile']
+    ['n', 'amphibian, any cold-blooded animal with bones that lives on both land and in water; amphibian']
+    ['n', 'large arthropod, a large arthropod that lives on land; scorpion']
+    ['mod', 'like an akesi in appearance']
+    ['mod', 'having the characteristics or properties of an akesi']
+  ]
+
+ala:
+  off: [
+    ['mod', 'no, not, none, un-']
+    ['n', 'nothing, negation, zero']
+    ['interj', 'no!']
+  ]
+  add: [
+    ['mod', 'not, not such; no, not']
+    ['mod', 'no, zero, no quantity of; no, zero']
+    ['mod', 'un-, opposite of; un-']
+    ['n', 'the state, situation or general phenomenon of being ala; absence, emptiness, negation, nothing, zero']
+    ['interj', 'a short, sudden or emotional expression of ala; no!']
+  ]
+
+alasa:
+  unofficial: true
+  add: [
+    ['transv', 'to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest']
+    ['transv', 'to hunt, to pursue and kill animals to use as food and clothing; to hunt']
+  ]
+
+ale:
+  see: 'ali'
+
+ali:
+  off: [
+    ['n', 'everything, anything, life, the universe']
+    ['mod', 'all, every, complete, whole']
+  ]
+
+anpa:
+  off: [
+    ['n', 'bottom, lower part, under, below, floor, beneath']
+    ['mod', 'low, lower, bottom, down']
+  ]

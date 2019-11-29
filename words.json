@@ -1,0 +1,26 @@
+{
+  "a": {
+    "off": [
+      ["interj", "ah, ha, uh, oh, ooh, aw, well (emotion word)"]
+    ]
+  },
+  "akesi": {
+    "off": [
+      ["n", "non-cute animal, reptile, amphibian"]
+    ],
+    "add": [
+      ["n", "creeping animal, a scaly or slimy animal that creeps on land"],
+      ["n", "reptile, any air-breathing cold-blooded animal that crawls on land and has scales and bones; reptile"],
+      ["n", "amphibian, any cold-blooded animal with bones that lives on both land and in water; amphibian"],
+      ["n", "large arthropod, a large arthropod that lives on land; scorpion"],
+      ["mod", "like an akesi in appearance"],
+      ["mod", "having the characteristics or properties of an akesi"]
+    ]
+  },
+  "ala": {
+    "off": [
+      ["mod", "no, not, none, un-"],
+      ["n", "nothing, negation, zero"]
+    ]
+  }
+}
