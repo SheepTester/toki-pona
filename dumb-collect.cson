@@ -8,12 +8,12 @@ akesi:
     ['n', 'non-cute animal, reptile, amphibian']
   ]
   add: [
-    ['noun', 'creeping animal, a scaly or slimy animal that creeps on land']
-    ['noun', 'reptile, any air-breathing cold-blooded animal that crawls on land and has scales and bones; reptile']
-    ['noun', 'amphibian, any cold-blooded animal with bones that lives on both land and in water; amphibian']
-    ['noun', 'large arthropod, a large arthropod that lives on land; scorpion']
-    ['describer', 'like an akesi in appearance']
-    ['describer', 'having the characteristics or properties of an akesi']
+    ['n', 'creeping animal, a scaly or slimy animal that creeps on land']
+    ['n', 'reptile, any air-breathing cold-blooded animal that crawls on land and has scales and bones; reptile']
+    ['n', 'amphibian, any cold-blooded animal with bones that lives on both land and in water; amphibian']
+    ['n', 'large arthropod, a large arthropod that lives on land; scorpion']
+    ['mod', 'like an akesi in appearance']
+    ['mod', 'having the characteristics or properties of an akesi']
   ]
 
 ala:
@@ -23,17 +23,18 @@ ala:
     ['interj', 'no!']
   ]
   add: [
-    ['describer', 'not, not such; no, not']
-    ['describer', 'no, zero, no quantity of; no, zero']
-    ['describer', 'un-, opposite of; un-']
-    ['noun', 'the state, situation or general phenomenon of being ala; absence, emptiness, negation, nothing, zero']
-    ['interjection', 'interjection a short, sudden or emotional expression of ala; no!']
+    ['mod', 'not, not such; no, not']
+    ['mod', 'no, zero, no quantity of; no, zero']
+    ['mod', 'un-, opposite of; un-']
+    ['n', 'the state, situation or general phenomenon of being ala; absence, emptiness, negation, nothing, zero']
+    ['interj', 'a short, sudden or emotional expression of ala; no!']
   ]
 
 alasa:
+  new: true
   add: [
-    ['transitive verb', 'to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest']
-    ['transitive verb', 'to hunt, to pursue and kill animals to use as food and clothing; to hunt']
+    ['vt', 'to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest']
+    ['vt', 'to hunt, to pursue and kill animals to use as food and clothing; to hunt']
   ]
 
 ale:
@@ -94,6 +95,7 @@ ijo:
   ]
 
 ike:
+  mnemonic: 'sounds like icky'
   off: [
     ['mod', 'bad, negative, wrong, evil, overly complex, (figuratively) unhealthy']
     ['interj', 'oh dear! woe! alas!']
@@ -108,12 +110,14 @@ ilo:
   ]
 
 insa:
+  mnemonic: 'inside'
   off: [
     ['n', 'inside, inner world, centre, stomach']
     ['mod', 'inner, internal']
   ]
 
 jaki:
+  mnemonic: 'yucky'
   off: [
     ['mod', 'dirty, gross, filthy']
     ['n', 'dirt, pollution, garbage, filth']
@@ -129,6 +133,7 @@ jan:
   ]
 
 jelo:
+  mnemonic: 'yellow'
   off: [
     ['mod', 'yellow, light green']
   ]
@@ -153,6 +158,7 @@ kalama:
   ]
 
 kama:
+  mnemonic: 'come up'
   off: [
     ['vi', 'come, become, arrive, happen, pursue actions to arrive to (a certain state), manage to, start to']
     ['n', 'event, happening, chance, arrival, beginning']
@@ -190,7 +196,10 @@ kin:
   ]
 
 kipisi:
-  notoriginal: true
+  new: true
+  off: [
+    ['vt', 'to cut']
+  ]
 
 kiwen:
   off: [
@@ -267,7 +276,7 @@ lete:
 
 li:
   off: [
-    ['sep', '"(between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)"']
+    ['sep', '(between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)']
   ]
 
 lili:
@@ -303,6 +312,7 @@ luka:
   ]
 
 lukin:
+  mnemonic: 'looking'
   off: [
     ['vt', 'see, look at, watch, read']
     ['vi', 'look, watch out, pay attention']
@@ -310,6 +320,7 @@ lukin:
   ]
 
 lupa:
+  mnemonic: 'sounds like loop'
   off: [
     ['n', 'hole, orifice, window, door']
   ]
@@ -320,23 +331,27 @@ ma:
   ]
 
 mama:
+  mnemonic: 'sounds like momma'
   off: [
     ['n', 'parent, mother, father']
     ['mod', 'of the parent, parental, maternal, fatherly']
   ]
 
 mani:
+  mnemonic: 'money'
   off: [
     ['n', 'money, material wealth, currency, dollar, capital']
   ]
 
 meli:
+  mnemonic: 'Mary'
   off: [
     ['n', 'woman, female, girl, wife, girlfriend']
     ['mod', 'female, feminine, womanly']
   ]
 
 mi:
+  mnemonic: 'me'
   off: [
     ['n', 'I, we']
     ['mod', 'my, our']
@@ -369,6 +384,7 @@ monsi:
   ]
 
 mu:
+  mnemonic: 'moo'
   off: [
     ['interj', 'woof! meow! moo! etc. (cute animal noise)']
   ]
@@ -388,6 +404,7 @@ musi:
   ]
 
 mute:
+  mnemonic: 'multi'
   off: [
     ['mod', 'many, very, much, several, a lot, abundant, numerous, more']
     ['n', 'amount, quantity']
@@ -396,8 +413,13 @@ mute:
 
 namako:
   new: true
+  add: [
+    ['mod', 'extra, additional']
+    ['n', 'spice']
+  ]
 
 nanpa:
+  mnemonic: 'number'
   off: [
     ['n', 'number']
     ['oth', '-th (ordinal numbers)']
@@ -441,6 +463,7 @@ o:
   ]
 
 oko:
+  mnemonic: 'similar to oculist'
   off: [
     ['n', 'eye']
   ]
@@ -506,6 +529,7 @@ pi:
   ]
 
 pilin:
+  mnemonic: 'feeling'
   off: [
     ['n', 'feelings, emotion, heart']
     ['vi', 'feel']
@@ -539,11 +563,13 @@ poka:
   ]
 
 poki:
+  mnemonic: 'box'
   off: [
     ['n', 'container, box, bowl, cup, glass']
   ]
 
 pona:
+  mnemonic: 'bonam'
   off: [
     ['n', 'good, simplicity, positivity']
     ['mod', 'good, simple, positive, nice, correct, right']
@@ -551,16 +577,11 @@ pona:
     ['vt', 'improve, fix, repair, make good']
   ]
   add: [
-    ['describer beneficial; good', 'beneficial; good']
-    [' beneficial; good', 'beneficial; good']
-    ['describer benevolent; altruistic, kind, symbiotic', 'benevolent; altruistic, kind, symbiotic']
-    [' benevolent; altruistic, kind, symbiotic', 'benevolent; altruistic, kind, symbiotic']
-    ['describer helpful; cooperating', 'helpful; cooperating']
-    [' helpful; cooperating', 'helpful; cooperating']
-    ['describer ideal', 'ideal']
-    [' ideal', 'ideal']
-    ['describer conducive to overall wellness', 'conducive to overall wellness']
-    [' conducive to overall wellness', 'conducive to overall wellness']
+    ['mod', 'beneficial; good']
+    ['mod', 'benevolent; altruistic, kind, symbiotic']
+    ['mod', 'helpful; cooperating']
+    ['mod', 'ideal']
+    ['mod', 'conducive to overall wellness']
   ]
 
 sama:
@@ -569,8 +590,8 @@ sama:
     ['prep', 'like, as, seem']
   ]
   add: [
-    ['adjective', 'filling the same or a similar role; equivalent']
-    ['adjective', 'self-']
+    ['mod', 'filling the same or a similar role; equivalent']
+    ['mod', 'self-']
   ]
 
 seli:
@@ -580,11 +601,11 @@ seli:
     ['vt', 'heat, warm up, cook']
   ]
   add: [
-    ['noun', 'fire, a force of nature or chemical reaction that releases heat and light, potentially causing destruction; fire, lightning, explosion, exothermic reaction']
-    ['noun', 'heat source, something that provides heat']
-    ['noun', 'cooking source, something that provides heat for preparing food']
-    ['noun', 'light source, something that provides light']
-    ['transitive verb', 'to use seli on']
+    ['n', 'fire, a force of nature or chemical reaction that releases heat and light, potentially causing destruction; fire, lightning, explosion, exothermic reaction']
+    ['n', 'heat source, something that provides heat']
+    ['n', 'cooking source, something that provides heat for preparing food']
+    ['n', 'light source, something that provides light']
+    ['vt', 'to use seli on']
   ]
 
 selo:
@@ -601,6 +622,18 @@ sewi:
   off: [
     ['n', 'high, up, above, top, over, on']
     ['mod', 'superior, elevated, religious, formal']
+  ]
+  add: [
+    ['mod', 'awe-inspiring, inspiring a feeling of wonder, respect and fear; venerable, reverend, estimable, honourable, awe-inspiring, humbling, mesmerizing, venerable, reverend, honourable, looked up to in adoration']
+    ['mod', 'captivating, causing a hypnotizing effect, able to hold people in an uncontrollable state of admiration; spellbinding, fascinating, mesmerizing, hypnotic, mysteriously impressive, captivating, enchanting']
+    ['mod', 'having higher powers or effects']
+    ['mod', 'supernatural']
+    ['mod', 'interpreted as belonging to a world beyond the ordinary and physical; transcendent, transcending, divine, magical, mysterious, wondrous, miraculous']
+    ['mod', 'causing supernormal stimulus']
+    ['mod', 'idealized']
+    ['mod', 'worshipped']
+    ['mod', 'physically deep']
+    ['mod', 'figuratively deep']
   ]
 
 sijelo:
@@ -637,10 +670,10 @@ sitelen:
     ['vt', 'draw, write']
   ]
   add: [
-    ['noun', 'representation, a visual or tactile work that serves to show, describe, explain or remind us of something else; representation, model']
-    ['noun', 'picture, specific lines and shapes marked on a surface; drawing, print, painting, image, sign, sketch, outline, blueprint, etching, picture,']
-    ['noun', 'diagram, chart, graph']
-    ['noun', 'sculpture , an object made into the shape of something; carving, sculpture, figurine, replica']
+    ['n', 'representation, a visual or tactile work that serves to show, describe, explain or remind us of something else; representation, model']
+    ['n', 'picture, specific lines and shapes marked on a surface; drawing, print, painting, image, sign, sketch, outline, blueprint, etching, picture,']
+    ['n', 'diagram, chart, graph']
+    ['n', 'sculpture , an object made into the shape of something; carving, sculpture, figurine, replica']
   ]
 
 sona:
@@ -649,6 +682,9 @@ sona:
     ['vt', 'know, understand, know how to']
     ['vi', 'know, understand']
     ['kama', 'learn, study']
+  ]
+  add: [
+    ['n', 'system of knowledge or beliefs']
   ]
 
 soweli:
@@ -668,7 +704,7 @@ suno:
     ['n', 'sun, light']
   ]
   add: [
-    ['describer', 'having the qualities or characteristics of suno, shiny']
+    ['mod', 'having the qualities or characteristics of suno, shiny']
   ]
 
 supa:
@@ -676,10 +712,11 @@ supa:
     ['n', 'horizontal surface, e.g furniture, table, chair, pillow, floor']
   ]
   add: [
-    ['noun', 'supporting platform, surface']
+    ['n', 'supporting platform, surface']
   ]
 
 suwi:
+  mnemonic: 'sweet'
   off: [
     ['n', 'candy, sweet food']
     ['mod', 'sweet, cute']
@@ -692,16 +729,18 @@ tan:
     ['n', 'origin, cause']
   ]
   add: [
-    ['relation word', 'relation word, origin, indicates the place of origin']
+    ['prep', 'relation word, origin, indicates the place of origin']
   ]
 
 taso:
+  mnemonic: 'that\'s all'
   off: [
     ['mod', 'only, sole']
     ['conj', 'but']
   ]
 
 tawa:
+  mnemonic: 'towards'
   off: [
     ['prep', 'to, in order to, towards, for, until']
     ['vi', 'go to, walk, travel, move, leave']
@@ -716,18 +755,22 @@ telo:
     ['vt', 'water, wash with water']
   ]
   add: [
-    ['noun', 'liquid, a flowing wet substance; liquid, fluid, water']
-    ['noun', 'beverage, a liquid for drinking; beverage, drink, water, juice']
-    ['noun', 'a liquid for washing; water']
-    ['noun', 'body fluid, a liquid that comes out of the body; blood, milk, saliva, semen, sweat, tears, urine']
-    ['noun', 'body of water, an area covered with water; bay, strait, sea, lake, river, stream']
-    ['transitive verb', 'to use telo on; to water, rinse, wash, wet']
-    ['describer', 'having the characteristics or properties of telo; wet, liquid']
+    ['n', 'liquid, a flowing wet substance; liquid, fluid, water']
+    ['n', 'beverage, a liquid for drinking; beverage, drink, water, juice']
+    ['n', 'a liquid for washing; water']
+    ['n', 'body fluid, a liquid that comes out of the body; blood, milk, saliva, semen, sweat, tears, urine']
+    ['n', 'body of water, an area covered with water; bay, strait, sea, lake, river, stream']
+    ['vt', 'to use telo on; to water, rinse, wash, wet']
+    ['mod', 'having the characteristics or properties of telo; wet, liquid']
   ]
 
 tenpo:
   off: [
     ['n', 'time, period of time, moment, duration, situation']
+  ]
+  add: [
+    ['n', 'moment']
+    ['n', 'occasion']
   ]
 
 toki:
@@ -739,8 +782,8 @@ toki:
     ['interj', 'hello! hi!']
   ]
   add: [
-    ['transitive verb', 'to give and receive (e: information) (tawa: with); to communicate']
-    ['transitive verb', 'to put together (e: thoughts or ideas); to think out']
+    ['vt', 'to give and receive (e: information) (tawa: with); to communicate']
+    ['vt', 'to put together (e: thoughts or ideas); to think out']
   ]
 
 tomo:
@@ -748,8 +791,16 @@ tomo:
     ['n', 'indoor constructed space, e.g. house, home, room, building']
     ['mod', 'urban, domestic, household']
   ]
+  add: [
+    ['n', 'shelter']
+    ['n', 'building']
+    ['n', 'home']
+    ['n', 'room']
+    ['n', 'designated place']
+  ]
 
 tu:
+  mnemonic: 'tu'
   off: [
     ['mod', 'two']
     ['n', 'duo, pair']
@@ -769,20 +820,31 @@ uta:
     ['n', 'mouth']
     ['mod', 'oral']
   ]
+  add: [
+    ['n', 'mouth: the part of the human body that includes the lips and everything inside the mouth and throat; mouth, oral cavity, throat, pharynx, lips']
+    ['n', 'maw: a similar part in an animal\'s body, used for eating, sucking or grooming; beak, bill, rostrum, jaw, proboscis']
+  ]
 
 utala:
   off: [
     ['n', 'conflict, disharmony, competition, fight, war, battle, attack, blow, argument, physical or verbal violence']
     ['vt', 'hit, strike, attack, compete against']
   ]
+  add: [
+    ['n', 'competition']
+    ['n', 'conflict']
+    ['n, vi', 'struggle']
+  ]
 
 walo:
+  mnemonic: 'sounds like wall, which is often white'
   off: [
     ['mod', 'white, light (colour)']
     ['n', 'white thing or part, whiteness, lightness']
   ]
 
 wan:
+  mnemonic: 'one'
   off: [
     ['mod', 'one, a']
     ['n', 'unit, element, particle, part, piece']
@@ -799,6 +861,13 @@ wawa:
     ['n', 'energy, strength, power']
     ['mod', 'energetic, strong, fierce, intense, sure, confident']
     ['vt', 'strengthen, energize, empower']
+  ]
+  add: [
+    ['mod', 'intense']
+    ['mod', 'strong']
+    ['mod', 'fast']
+    ['mod', 'loud: (of sound) having a high volume or amplitude']
+    ['mod', 'confident, sure']
   ]
 
 weka:
