@@ -8,8 +8,10 @@
 
     <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
+
+    <script src="./dom.js" charset="utf-8"></script>
   </head>
-  <body class="no-content searching">
+  <body>
     <div class="editor">
       <textarea class="text editable" id="content">toki pona</textarea>
       <div class="text highlighted" id="syntax-highlighted">toki pona</div>
@@ -17,42 +19,14 @@
     <div class="dict-resize"></div>
     <div class="dictionary">
       <div class="entry">
-        <div class="entry-content">
-          <div class="entry-word">lape</div>
-          <div class="entry-summary">"sleep"</div>
-          <ul class="entry-tags">
-            <li>activity</li>
-            <li>activity</li>
-            <li>activity</li>
-          </ul>
-          <ul class="definitions">
-            <li><abbr class="speech-part" title="modifier/describer/adjective">mod</abbr> sleeping, of sleep</li>
-            <li><abbr class="speech-part" title="modifier/describer/adjective">mod</abbr> sleeping, of sleep</li>
-            <li><abbr class="speech-part" title="modifier/describer/adjective">mod</abbr> sleeping, of sleep</li>
-            <li><hr></li>
-            <li><abbr class="speech-part" title="noun">n</abbr> <abbr class="speech-part" title="transitive verb">vt</abbr> sleep, rest</li>
-            <li><abbr class="speech-part" title="noun">n</abbr> <abbr class="speech-part" title="transitive verb">vt</abbr> sleep, rest</li>
-            <li><abbr class="speech-part" title="noun">n</abbr> <abbr class="speech-part" title="transitive verb">vt</abbr> sleep, rest</li>
-          </ul>
-        </div>
+        <div class="entry-content" id="entry"></div>
         <div class="no-entry-content">nimi ala</div>
       </div>
+      <div class="entry-resize"></div>
       <div class="list">
-        <input type="search" class="search" placeholder="o lukin e nimi">
-        <select class="tag-select">
-          <option>all</option>
-          <option>colour</option>
-          <option>activity</option>
-          <option>uncategorized</option>
-        </select>
-        <ul class="results">
-          <li><span class="word">lape</span> <span class="summary">"sleep"</span></li>
-          <li><span class="word">lape</span> <span class="summary">"sleep"</span></li>
-          <li><span class="word">lape</span> <span class="summary">"sleep"</span> <ul class="tags"><li>activity</li> <li>activity</li></ul></li>
-          <li><span class="word">lape</span> <span class="summary">"sleep"</span></li>
-          <li><span class="word">lape</span> <span class="summary">"sleep"</span></li>
-        </ul>
-      </div>
+        <input type="search" class="search" placeholder="o lukin e nimi" id="search">
+        <select class="tag-select" id="categories"></select>
+        <ul class="results" id="results"></div>
     </div>
     <script src="./index.js" charset="utf-8"></script>
   </body>

@@ -285,7 +285,7 @@ kin:
 
 kipisi:
   summary: 'cut'
-  new: true
+  obsolete: true
   off: [
     ['vt', 'to cut']
   ]

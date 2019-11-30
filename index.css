@@ -41,6 +41,7 @@ ul {
 }
 .editable {
   color: black;
+  resize: none;
 }
 .editable::selection {
   background-color: rgba(0, 0, 0, 0.2);
@@ -50,6 +51,12 @@ ul {
 }
 .highlighted {
   pointer-events: none;
+  white-space: pre-wrap;
+  overflow-y: auto;
+  word-break: break-word;
+}
+.empty-line-placeholder {
+  font-size: 0;
 }
 
 .dict-resize {
@@ -61,12 +68,15 @@ ul {
   z-index: 1;
 }
 .dictionary {
+  display: flex;
+  flex-direction: column;
   width: 300px;
 }
 .entry {
   height: 350px;
   background-color: #f6f6f6;
   overflow: auto;
+  flex: none;
 }
 .entry-content {
   padding: 10px;
@@ -104,8 +114,21 @@ ul {
   width: 50%;
 }
 .speech-part {
-  text-decoration: none;
   cursor: help;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.etymology {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.origin {
+  font-style: italic;
+}
+.language,
+.ipa,
+.plain-text {
+  font-style: normal;
 }
 .no-entry-content {
   display: none;
@@ -119,7 +142,19 @@ ul {
 .no-content .no-entry-content {
   display: flex;
 }
+.entry-resize {
+  width: 100%;
+  height: 10px;
+  margin: -5px 0;
+  flex: none;
+  cursor: ns-resize;
+}
 
+.list {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
 .search,
 .tag-select {
   width: 100%;
@@ -129,6 +164,7 @@ ul {
   background-repeat: no-repeat;
   background-position: right;
   cursor: pointer;
+  flex: none;
 }
 .search {
   background-image: url('./search-24px.svg');
@@ -144,10 +180,19 @@ ul {
 .searching .tag-select {
   display: none;
 }
-.results li {
+.results {
+  overflow: auto;
+  height: 0;
+  flex: auto;
+}
+.results > li {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 10px;
   font-size: 16px;
+  cursor: pointer;
+}
+.results > li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .word {
   color: rgba(0, 0, 0, 0.8);
@@ -160,7 +205,6 @@ ul {
 }
 
 .entry-tags li,
-.speech-part,
 .tags li {
   display: inline-block;
   text-transform: uppercase;
@@ -169,4 +213,7 @@ ul {
   background-color: black;
   border-radius: 2px;
   padding: 2px 5px;
+}
+.hidden {
+  display: none;
 }
