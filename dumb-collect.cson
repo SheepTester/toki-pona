@@ -1,9 +1,13 @@
 a:
+  summary: 'ah!'
+  tags: ['interjection']
   off: [
     ['interj', 'ah, ha, uh, oh, ooh, aw, well (emotion word)']
   ]
 
 akesi:
+  summary: 'beast'
+  tags: ['animal']
   off: [
     ['n', 'non-cute animal, reptile, amphibian']
   ]
@@ -17,6 +21,8 @@ akesi:
   ]
 
 ala:
+  summary: 'no'
+  tags: ['interjection']
   off: [
     ['mod', 'no, not, none, un-']
     ['n', 'nothing, negation, zero']
@@ -31,6 +37,8 @@ ala:
   ]
 
 alasa:
+  summary: 'harvest'
+  tags: ['food']
   new: true
   add: [
     ['vt', 'to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest']
@@ -41,18 +49,23 @@ ale:
   see: 'ali'
 
 ali:
+  summary: 'all'
+  tags: ['number']
   off: [
     ['n', 'everything, anything, life, the universe']
     ['mod', 'all, every, complete, whole']
   ]
 
 anpa:
+  summary: 'lower'
+  tags: ['location']
   off: [
     ['n', 'bottom, lower part, under, below, floor, beneath']
     ['mod', 'low, lower, bottom, down']
   ]
 
 ante:
+  summary: 'different'
   off: [
     ['n', 'difference']
     ['mod', 'different']
@@ -61,11 +74,14 @@ ante:
   ]
 
 anu:
+  summary: 'or'
   off: [
     ['conj', 'or']
   ]
 
 awen:
+  summary: 'stay'
+  tags: ['movement']
   off: [
     ['vi', 'stay, wait, remain']
     ['vt', 'keep']
@@ -73,21 +89,26 @@ awen:
   ]
 
 e:
+  summary: '[direct object ->]'
+  tags: ['grammar']
   off: [
     ['sep', '(introduces a direct object)']
   ]
 
 en:
+  summary: 'and'
   off: [
     ['conj', 'and (used to coordinate head nouns)']
   ]
 
 esun:
+  summary: 'shop'
   off: [
     ['n', 'market, shop']
   ]
 
 ijo:
+  summary: 'thing'
   off: [
     ['n', 'thing, something, stuff, anything, object']
     ['mod', 'of something']
@@ -95,7 +116,9 @@ ijo:
   ]
 
 ike:
+  summary: 'bad'
   mnemonic: 'sounds like icky'
+  tags: ['bad']
   off: [
     ['mod', 'bad, negative, wrong, evil, overly complex, (figuratively) unhealthy']
     ['interj', 'oh dear! woe! alas!']
@@ -105,19 +128,24 @@ ike:
   ]
 
 ilo:
+  summary: 'tool'
   off: [
     ['n', 'tool, device, machine, thing used for a specific purpose']
   ]
 
 insa:
+  summary: 'inside'
   mnemonic: 'inside'
+  tags: ['location']
   off: [
     ['n', 'inside, inner world, centre, stomach']
     ['mod', 'inner, internal']
   ]
 
 jaki:
+  summary: 'gross'
   mnemonic: 'yucky'
+  tags: ['bad']
   off: [
     ['mod', 'dirty, gross, filthy']
     ['n', 'dirt, pollution, garbage, filth']
@@ -126,6 +154,8 @@ jaki:
   ]
 
 jan:
+  summary: 'person'
+  tags: ['people']
   off: [
     ['n', 'person, people, human, being, somebody, anybody']
     ['mod', 'human, somebody\'s, personal, of people']
@@ -133,12 +163,15 @@ jan:
   ]
 
 jelo:
+  summary: 'yellow'
   mnemonic: 'yellow'
+  tags: ['colour']
   off: [
     ['mod', 'yellow, light green']
   ]
 
 jo:
+  summar: 'have'
   off: [
     ['vt', 'have, contain']
     ['n', 'having']
@@ -146,11 +179,14 @@ jo:
   ]
 
 kala:
+  summary: 'fish'
+  tags: ['animal', 'food']
   off: [
     ['n', 'fish, sea creature']
   ]
 
 kalama:
+  summary: 'sound'
   off: [
     ['n', 'sound, noise, voice']
     ['vi', 'make noise']
@@ -158,7 +194,9 @@ kalama:
   ]
 
 kama:
+  summary: 'come'
   mnemonic: 'come up'
+  tags: ['movement']
   off: [
     ['vi', 'come, become, arrive, happen, pursue actions to arrive to (a certain state), manage to, start to']
     ['n', 'event, happening, chance, arrival, beginning']
@@ -167,11 +205,14 @@ kama:
   ]
 
 kasi:
+  summary: 'plant'
+  tags: ['material', 'food']
   off: [
     ['n', 'plant, leaf, herb, tree, wood']
   ]
 
 ken:
+  summary: 'able'
   off: [
     ['vi', 'can, is able to, is allowed to, may, is possible']
     ['n', 'possibility, ability, power to do things, permission']
@@ -180,45 +221,58 @@ ken:
   ]
 
 kepeken:
+  summary: 'use'
   off: [
     ['vt', 'use']
     ['prep', 'with']
   ]
 
 kili:
+  summary: 'fruit'
+  tags: ['food']
   off: [
     ['n', 'fruit, pulpy vegetable, mushroom']
   ]
 
 kin:
+  summary: 'also'
   off: [
     ['mod', 'also, too, even, indeed (emphasizes the word(s) before it)']
   ]
 
 kipisi:
+  summary: 'cut'
   new: true
   off: [
     ['vt', 'to cut']
   ]
 
 kiwen:
+  summary: 'stone'
+  tags: ['shape']
   off: [
     ['mod', 'hard, solid, stone-like, made of stone or metal']
     ['n', 'hard thing, rock, stone, metal, mineral, clay']
   ]
 
 ko:
+  summary: 'slime'
+  tags: ['shape', 'food']
   off: [
     ['n', 'semi-solid or squishy substance, e.g. paste, powder, gum']
   ]
 
 kon:
+  summary: 'air'
+  tags: ['material']
   off: [
     ['n', 'air, wind, smell, soul']
     ['mod', 'air-like, ethereal, gaseous']
   ]
 
 kule:
+  summary: 'colour'
+  tags: ['colour']
   off: [
     ['n', 'colour, paint']
     ['mod', 'colourful']
@@ -226,23 +280,29 @@ kule:
   ]
 
 kute:
+  summary: 'hear'
   off: [
     ['vt', 'listen, hear']
     ['mod', 'auditory, hearing']
   ]
 
 kulupu:
+  summary: 'group'
+  tags: ['people']
   off: [
     ['n', 'group, community, society, company, people']
     ['mod', 'communal, shared, public, of the society']
   ]
 
 la:
+  summary: '[<- context]'
+  tags: ['grammar']
   off: [
     ['sep', '(between adverb or phrase of context and sentence)']
   ]
 
 lape:
+  summary: 'sleep'
   off: [
     ['mod', 'sleeping, of sleep']
   ]
@@ -251,11 +311,15 @@ lape:
   ]
 
 laso:
+  summary: 'blue'
+  tags: ['colour']
   off: [
     ['mod', 'blue, blue-green']
   ]
 
 lawa:
+  summary: 'leader'
+  tags: ['people', 'body']
   off: [
     ['n', 'head, mind']
     ['mod', 'main, leading, in charge']
@@ -263,11 +327,15 @@ lawa:
   ]
 
 len:
+  summary: 'cloth'
+  tags: ['material']
   off: [
     ['n', 'clothing, cloth, fabric']
   ]
 
 lete:
+  summary: 'cold'
+  tags: ['climate']
   off: [
     ['n', 'cold']
     ['mod', 'cold, uncooked']
@@ -275,43 +343,58 @@ lete:
   ]
 
 li:
+  summary: '[verb ->]'
+  tags: ['grammar']
   off: [
     ['sep', '(between any subject except mi and sina and its verb; also used to introduce a new verb for the same subject)']
   ]
 
 lili:
+  summary: 'little'
+  tags: ['number', 'shape']
   off: [
     ['mod', 'small, little, young, a bit, short, few, less']
     ['vt', 'reduce, shorten, shrink, lessen']
   ]
 
 linja:
+  summary: 'thread'
+  tags: ['shape']
   off: [
     ['n', 'long, very thin, floppy thing, e.g. string, rope, hair, thread, cord, chain']
   ]
 
 lipu:
+  summary: 'sheet'
+  tags: ['shape']
   off: [
     ['n', 'flat and bendable thing, e.g. paper, card, ticket']
   ]
 
 loje:
+  summary: 'red'
+  tags: ['colour']
   off: [
     ['mod', 'red']
   ]
 
 lon:
+  summary: 'at'
+  tags: ['location']
   off: [
     ['prep', 'be (located) in/at/on']
     ['vi', 'be there, be present, be real/true, exist, be awake']
   ]
 
 luka:
+  summary: 'arm'
+  tags: ['body']
   off: [
     ['n', 'hand, arm']
   ]
 
 lukin:
+  summary: 'see'
   mnemonic: 'looking'
   off: [
     ['vt', 'see, look at, watch, read']
@@ -320,56 +403,69 @@ lukin:
   ]
 
 lupa:
+  summary: 'hole'
   mnemonic: 'sounds like loop'
   off: [
     ['n', 'hole, orifice, window, door']
   ]
 
 ma:
+  summary: 'land'
   off: [
     ['n', 'land, earth, country, (outdoor) area']
   ]
 
 mama:
+  summary: 'parent'
   mnemonic: 'sounds like momma'
+  tags: ['people']
   off: [
     ['n', 'parent, mother, father']
     ['mod', 'of the parent, parental, maternal, fatherly']
   ]
 
 mani:
+  summary: 'money'
   mnemonic: 'money'
   off: [
     ['n', 'money, material wealth, currency, dollar, capital']
   ]
 
 meli:
+  summary: 'girl'
   mnemonic: 'Mary'
+  tags: ['people']
   off: [
     ['n', 'woman, female, girl, wife, girlfriend']
     ['mod', 'female, feminine, womanly']
   ]
 
 mi:
+  summary: 'me'
   mnemonic: 'me'
+  tags: ['people']
   off: [
     ['n', 'I, we']
     ['mod', 'my, our']
   ]
 
 mije:
+  summary: 'boy'
+  tags: ['people']
   off: [
     ['n', 'man, male, boy, husband, boyfriend']
     ['mod', 'male, masculine, manly']
   ]
 
 moku:
+  summary: 'eat'
   off: [
     ['n', 'food, meal']
     ['vt', 'eat, drink, swallow, ingest, consume']
   ]
 
 moli:
+  summary: 'die'
   off: [
     ['n', 'death']
     ['vi', 'die, be dead']
@@ -378,24 +474,31 @@ moli:
   ]
 
 monsi:
+  summary: 'back'
+  tags: ['location', 'body']
   off: [
     ['n', 'back, rear end, butt, behind']
     ['mod', 'back, rear']
   ]
 
 mu:
+  summary: 'meow'
   mnemonic: 'moo'
+  tags: ['animal']
   off: [
     ['interj', 'woof! meow! moo! etc. (cute animal noise)']
   ]
 
 mun:
+  summary: 'moon'
+  tags: ['climate']
   off: [
     ['n', 'moon']
     ['mod', 'lunar']
   ]
 
 musi:
+  summary: 'fun'
   off: [
     ['n', 'fun, playing, game, recreation, art, entertainment']
     ['mod', 'artful, fun, recreational']
@@ -404,7 +507,9 @@ musi:
   ]
 
 mute:
+  summary: 'many'
   mnemonic: 'multi'
+  tags: ['number']
   off: [
     ['mod', 'many, very, much, several, a lot, abundant, numerous, more']
     ['n', 'amount, quantity']
@@ -412,6 +517,8 @@ mute:
   ]
 
 namako:
+  summary: 'extra'
+  tags: ['number']
   new: true
   add: [
     ['mod', 'extra, additional']
@@ -419,56 +526,71 @@ namako:
   ]
 
 nanpa:
+  summary: 'number'
   mnemonic: 'number'
+  tags: ['number']
   off: [
     ['n', 'number']
     ['oth', '-th (ordinal numbers)']
   ]
 
 nasa:
+  summary: 'silly'
   off: [
     ['mod', 'silly, crazy, foolish, drunk, strange, stupid, weird']
     ['vt', 'drive crazy, make weird']
   ]
 
 nasin:
+  summary: 'way'
   off: [
     ['n', 'way, manner, custom, road, path, doctrine, system, method']
   ]
 
 nena:
+  summary: 'bump'
+  tags: ['shape']
   off: [
     ['n', 'bump, nose, hill, mountain, button']
   ]
 
 ni:
+  summary: 'the'
   off: [
     ['mod', 'this, that']
   ]
 
 nimi:
+  summary: 'word'
   off: [
     ['n', 'word, name']
   ]
 
 noka:
+  summary: 'leg'
+  tags: ['body']
   off: [
     ['n', 'leg, foot']
   ]
 
 o:
+  summary: 'hey'
+  tags: ['grammar']
   off: [
     ['sep', 'O (vocative or imperative)']
     ['interj', 'hey! (calling somebody\'s attention)']
   ]
 
 oko:
+  summary: 'eye'
   mnemonic: 'similar to oculist'
+  tags: ['body']
   off: [
     ['n', 'eye']
   ]
 
 olin:
+  summary: 'love'
   off: [
     ['n', 'love']
     ['mod', 'love']
@@ -476,17 +598,22 @@ olin:
   ]
 
 ona:
+  summary: 'they'
+  tags: ['people']
   off: [
     ['n', 'she, he, it, they']
     ['mod', 'her, his, its, their']
   ]
 
 open:
+  summary: 'activate'
   off: [
     ['vt', 'open, turn on']
   ]
 
 pakala:
+  summary: 'oopsie'
+  tags: ['bad']
   off: [
     ['n', 'blunder, accident, mistake, destruction, damage, breaking']
     ['vt', 'screw up, fuck up, botch, ruin, break, hurt, injure, damage, spoil, ruin']
@@ -495,6 +622,7 @@ pakala:
   ]
 
 pali:
+  summary: 'work'
   off: [
     ['n', 'activity, work, deed, project']
     ['mod', 'active, work-related, operating, working']
@@ -503,32 +631,42 @@ pali:
   ]
 
 palisa:
+  summary: 'stick'
+  tags: ['shape']
   off: [
     ['n', 'long, mostly hard object, e.g. rod, stick, branch']
   ]
 
 pan:
+  summary: 'grain'
+  tags: ['food']
   off: [
     ['n', 'grain, cereal']
   ]
 
 pana:
+  summary: 'give'
   off: [
     ['vt', 'give, put, send, place, release, emit, cause']
     ['n', 'giving, transfer, exchange']
   ]
 
 pata:
+  summary: 'sibling'
+  tags: ['people']
+  obsolete: true
   off: [
-    ['n', 'n brother']
+    ['n', 'brother']
   ]
 
 pi:
+  summary: 'of'
   off: [
     ['sep', 'of, belonging to']
   ]
 
 pilin:
+  summary: 'feel'
   mnemonic: 'feeling'
   off: [
     ['n', 'feelings, emotion, heart']
@@ -537,6 +675,8 @@ pilin:
   ]
 
 pimeja:
+  summary: 'dark'
+  tags: ['colour']
   off: [
     ['mod', 'black, dark']
     ['n', 'darkness, shadows']
@@ -544,6 +684,7 @@ pimeja:
   ]
 
 pini:
+  summary: 'finish'
   off: [
     ['n', 'end, tip']
     ['mod', 'completed, finished, past, done, ago']
@@ -551,11 +692,15 @@ pini:
   ]
 
 pipi:
+  summary: 'bug'
+  tags: ['animal']
   off: [
     ['n', 'bug, insect, spider']
   ]
 
 poka:
+  summary: 'next to'
+  tags: ['location']
   off: [
     ['n', 'side, hip, next to']
     ['prep', 'in the accompaniment of, with']
@@ -563,12 +708,14 @@ poka:
   ]
 
 poki:
+  summary: 'container'
   mnemonic: 'box'
   off: [
     ['n', 'container, box, bowl, cup, glass']
   ]
 
 pona:
+  summary: 'good'
   mnemonic: 'bonam'
   off: [
     ['n', 'good, simplicity, positivity']
@@ -585,6 +732,7 @@ pona:
   ]
 
 sama:
+  summary: 'same'
   off: [
     ['mod', 'same, similar, equal, of equal status or position']
     ['prep', 'like, as, seem']
@@ -595,6 +743,8 @@ sama:
   ]
 
 seli:
+  summary: 'hot'
+  tags: ['climate']
   off: [
     ['n', 'fire, warmth, heat']
     ['mod', 'hot, warm, cooked']
@@ -609,16 +759,22 @@ seli:
   ]
 
 selo:
+  summary: 'outside'
+  tags: ['location']
   off: [
     ['n', 'outside, surface, skin, shell, bark, shape, peel']
   ]
 
 seme:
+  summary: 'what'
+  tags: ['grammar']
   off: [
     ['oth', 'what, which, wh- (question word)']
   ]
 
 sewi:
+  summary: 'above'
+  tags: ['location']
   off: [
     ['n', 'high, up, above, top, over, on']
     ['mod', 'superior, elevated, religious, formal']
@@ -637,34 +793,44 @@ sewi:
   ]
 
 sijelo:
+  summary: 'body'
+  tags: ['body']
   off: [
     ['n', 'body, physical state']
   ]
 
 sike:
+  summary: 'round'
+  tags: ['shape']
   off: [
     ['n', 'circle, wheel, sphere, ball, cycle']
     ['mod', 'round, cyclical']
   ]
 
 sin:
+  summary: 'new'
   off: [
     ['mod', 'new, fresh, another, more']
     ['vt', 'renew, renovate, freshen']
   ]
 
 sina:
+  summary: 'you'
+  tags: ['people']
   off: [
     ['n', 'you']
     ['mod', 'your']
   ]
 
 sinpin:
+  summary: 'front'
+  tags: ['location']
   off: [
     ['n', 'front, chest, torso, face, wall']
   ]
 
 sitelen:
+  summary: 'picture'
   off: [
     ['n', 'picture, image']
     ['vt', 'draw, write']
@@ -677,6 +843,7 @@ sitelen:
   ]
 
 sona:
+  summary: 'know'
   off: [
     ['n', 'knowledge, wisdom, intelligence, understanding']
     ['vt', 'know, understand, know how to']
@@ -688,11 +855,14 @@ sona:
   ]
 
 soweli:
+  summary: 'animal'
+  tags: ['animal']
   off: [
     ['n', 'animal, especially land mammal, lovable animal']
   ]
 
 suli:
+  summary: 'big'
   off: [
     ['mod', 'big, tall, long, adult, important']
     ['vt', 'enlarge, lengthen']
@@ -700,6 +870,8 @@ suli:
   ]
 
 suno:
+  summary: 'sun'
+  tags: ['climate']
   off: [
     ['n', 'sun, light']
   ]
@@ -708,6 +880,7 @@ suno:
   ]
 
 supa:
+  summary: 'platform'
   off: [
     ['n', 'horizontal surface, e.g furniture, table, chair, pillow, floor']
   ]
@@ -716,7 +889,9 @@ supa:
   ]
 
 suwi:
+  summary: 'sweet'
   mnemonic: 'sweet'
+  tags: ['food']
   off: [
     ['n', 'candy, sweet food']
     ['mod', 'sweet, cute']
@@ -724,6 +899,7 @@ suwi:
   ]
 
 tan:
+  summary: 'origin'
   off: [
     ['prep', 'from, by, because of, since']
     ['n', 'origin, cause']
@@ -733,14 +909,18 @@ tan:
   ]
 
 taso:
+  summary: 'only'
   mnemonic: 'that\'s all'
+  tags: ['number']
   off: [
     ['mod', 'only, sole']
     ['conj', 'but']
   ]
 
 tawa:
+  summary: 'to'
   mnemonic: 'towards'
+  tags: ['movement']
   off: [
     ['prep', 'to, in order to, towards, for, until']
     ['vi', 'go to, walk, travel, move, leave']
@@ -750,6 +930,8 @@ tawa:
   ]
 
 telo:
+  summary: 'water'
+  tags: ['material']
   off: [
     ['n', 'water, liquid, juice, sauce']
     ['vt', 'water, wash with water']
@@ -765,6 +947,7 @@ telo:
   ]
 
 tenpo:
+  summary: 'time'
   off: [
     ['n', 'time, period of time, moment, duration, situation']
   ]
@@ -774,6 +957,7 @@ tenpo:
   ]
 
 toki:
+  summary: 'talk'
   off: [
     ['n', 'language, talking, speech, communication']
     ['mod', 'talking, verbal']
@@ -787,6 +971,7 @@ toki:
   ]
 
 tomo:
+  summary: 'building'
   off: [
     ['n', 'indoor constructed space, e.g. house, home, room, building']
     ['mod', 'urban, domestic, household']
@@ -800,7 +985,9 @@ tomo:
   ]
 
 tu:
+  summary: 'two'
   mnemonic: 'tu'
+  tags: ['number']
   off: [
     ['mod', 'two']
     ['n', 'duo, pair']
@@ -808,6 +995,8 @@ tu:
   ]
 
 unpa:
+  summary: 'sex'
+  tags: ['body']
   off: [
     ['n', 'sex, sexuality']
     ['mod', 'erotic, sexual']
@@ -816,6 +1005,8 @@ unpa:
   ]
 
 uta:
+  summary: 'mouth'
+  tags: ['body']
   off: [
     ['n', 'mouth']
     ['mod', 'oral']
@@ -826,6 +1017,7 @@ uta:
   ]
 
 utala:
+  summary: 'conflict'
   off: [
     ['n', 'conflict, disharmony, competition, fight, war, battle, attack, blow, argument, physical or verbal violence']
     ['vt', 'hit, strike, attack, compete against']
@@ -837,14 +1029,18 @@ utala:
   ]
 
 walo:
+  summary: 'white'
   mnemonic: 'sounds like wall, which is often white'
+  tags: ['colour']
   off: [
     ['mod', 'white, light (colour)']
     ['n', 'white thing or part, whiteness, lightness']
   ]
 
 wan:
+  summary: 'one'
   mnemonic: 'one'
+  tags: ['number']
   off: [
     ['mod', 'one, a']
     ['n', 'unit, element, particle, part, piece']
@@ -852,11 +1048,14 @@ wan:
   ]
 
 waso:
+  summary: 'bird'
+  tags: ['animal']
   off: [
     ['n', 'bird, winged animal']
   ]
 
 wawa:
+  summary: 'power'
   off: [
     ['n', 'energy, strength, power']
     ['mod', 'energetic, strong, fierce, intense, sure, confident']
@@ -871,6 +1070,7 @@ wawa:
   ]
 
 weka:
+  summary: 'away'
   off: [
     ['mod', 'away, absent, missing']
     ['n', 'absence']
@@ -878,6 +1078,7 @@ weka:
   ]
 
 wile:
+  summary: 'want'
   off: [
     ['vt', 'to want, need, wish, have to, must, will, should']
     ['n', 'desire, need, will']
