@@ -9,18 +9,25 @@ body {
   display: flex;
   background-color: #eee;
 }
-
-.editor {
-  flex: auto;
-  position: relative;
-  background-color: white;
-}
-.editable {
+textarea,
+input,
+select {
   -webkit-appearance: none;
   border: none;
   background: none;
   font: inherit;
-  color: transparent;
+  color: inherit;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.editor {
+  flex: auto;
+  position: relative;
+  background-color: #fefefe;
 }
 .text {
   position: absolute;
@@ -32,11 +39,134 @@ body {
   font-size: 16px;
   padding: 30px;
 }
+.editable {
+  color: black;
+}
+.editable::selection {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.editable:focus {
+  outline: none;
+}
+.highlighted {
+  pointer-events: none;
+}
 
+.dict-resize {
+  cursor: ew-resize;
+  flex: none;
+  width: 10px;
+  margin: 0 -5px;
+  position: relative;
+  z-index: 1;
+}
 .dictionary {
   width: 300px;
 }
 .entry {
   height: 350px;
-  background-color: #f7f7f7;
+  background-color: #f6f6f6;
+  overflow: auto;
+}
+.entry-content {
+  padding: 10px;
+}
+.no-content .entry-content {
+  display: none;
+}
+.entry-word {
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+.entry-summary {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  text-align: center;
+}
+.entry-tags {
+  text-align: center;
+}
+.entry-tags li {
+  margin: 5px;
+}
+.definitions {
+  margin-top: 10px;
+}
+.definitions li {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.definitions hr {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
+.speech-part {
+  text-decoration: none;
+  cursor: help;
+}
+.no-entry-content {
+  display: none;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.no-content .no-entry-content {
+  display: flex;
+}
+
+.search,
+.tag-select {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: right;
+  cursor: pointer;
+}
+.search {
+  background-image: url('./search-24px.svg');
+}
+.search:focus {
+  outline: none;
+  cursor: auto;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.tag-select {
+  background-image: url('./arrow_drop_down-24px.svg');
+}
+.searching .tag-select {
+  display: none;
+}
+.results li {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  font-size: 16px;
+}
+.word {
+  color: rgba(0, 0, 0, 0.8);
+}
+.summary {
+  color: rgba(0, 0, 0, 0.5);
+}
+.tags {
+  display: inline-block;
+}
+
+.entry-tags li,
+.speech-part,
+.tags li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  padding: 2px 5px;
 }
