@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>toki pona</title>
+    <meta name="description" content="desc todo"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div class="editor">
+      <div class="text highlighted">toki pona</div>
+      <textarea class="text editable">toki pona</textarea>
+    </div>
+    <div class="dictionary">
+      <div class="entry no-content">
+        <div class="entry-content">
+          <div class="word">lape</div>
+          <div class="summary">"sleep"</div>
+          <ul class="tags">
+            <li>activity</li>
+          </ul>
+          <ul class="definitions">
+            <li><abbr class="speech-part" title="modifier/describer/adjective">mod</abbr> sleeping, of sleep</li>
+            <li><hr></li>
+            <li><abbr class="speech-part" title="noun">n</abbr> <abbr class="speech-part" title="transitive verb">vt</abbr> sleep, rest</li>
+          </ul>
+        </div>
+        <div class="no-entry-content">nimi ala</div>
+      </div>
+      <div class="list">
+        <input type="search" class="search" placeholder="o lukin e nimi">
+        <select class="tag-select">
+          <option>all</option>
+          <option>colour</option>
+          <option>activity</option>
+          <option>uncategorized</option>
+        </select>
+        <ul class="results">
+          <li><span class="word">lape</span> <span class="summary">"sleep"</span></li>
+          <li><span class="word">lape</span> <span class="summary">"sleep"</span></li>
+          <li><span class="word">lape</span> <span class="summary">"sleep"</span></li>
+          <li><span class="word">lape</span> <span class="summary">"sleep"</span></li>
+          <li><span class="word">lape</span> <span class="summary">"sleep"</span></li>
+        </ul>
+      </div>
+    </div>
+    <script src="./index.js" charset="utf-8"></script>
+  </body>
+</html>
