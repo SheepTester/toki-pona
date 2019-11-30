@@ -14,5 +14,5 @@ if (output instanceof Error) {
       console.warn(word)
     }
   }
-  fs.writeFile(path.resolve(__dirname, './toki-pona.json'), JSON.stringify(output))
+  fs.writeFile(path.resolve(__dirname, './toki-pona.json'), JSON.stringify(output), console.log)
 }
