@@ -7,7 +7,7 @@ a:
 
 akesi:
   summary: 'beast'
-  tags: ['animal']
+  tags: ['animal', 'bad']
   off: [
     ['n', 'non-cute animal, reptile, amphibian']
   ]
