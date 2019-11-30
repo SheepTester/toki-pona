@@ -79,6 +79,13 @@ anu:
     ['conj', 'or']
   ]
 
+apeja:
+  summary: 'shame'
+  obsolete: true
+  add: [
+    ['mod', 'shame, guilt']
+  ]
+
 awen:
   summary: 'stay'
   tags: ['movement']
@@ -103,6 +110,7 @@ en:
 
 esun:
   summary: 'shop'
+  new: true
   off: [
     ['n', 'market, shop']
   ]
@@ -125,6 +133,13 @@ ike:
     ['n', 'negativity, badness, evil']
     ['vt', 'to make bad, to worsen, to have a negative effect upon']
     ['vi', 'to be bad, to suck']
+  ]
+
+iki:
+  summary: 'it'
+  obsolete: 'ona'
+  add: [
+    ['n', 'her, she, it']
   ]
 
 ilo:
@@ -204,6 +219,27 @@ kama:
     ['vt', 'bring about, summon']
   ]
 
+kan:
+  summary: 'with'
+  obsolete: 'poka'
+  add: [
+    ['prep', 'with, among']
+  ]
+
+kapa:
+  summary: 'bump'
+  obsolete: 'nena'
+  add: [
+    ['n', 'any extrusion or protrusion, e.g. hill, mountain, button']
+  ]
+
+kapesi:
+  summary: 'dull'
+  obsolete: 'pimeja'
+  add: [
+    ['mod', 'brown, grey']
+  ]
+
 kasi:
   summary: 'plant'
   tags: ['material', 'food']
@@ -225,6 +261,13 @@ kepeken:
   off: [
     ['vt', 'use']
     ['prep', 'with']
+  ]
+
+kijetesantakalu:
+  summary: 'racoon'
+  obsolete: true
+  off: [
+    ['n', 'any animal from the Procyonidae family, such as raccoons, coatis, kinkajous, olingos, ringtails and cacomistles']
   ]
 
 kili:
@@ -326,6 +369,13 @@ lawa:
     ['vt', 'lead, control, rule, steer']
   ]
 
+leko:
+  summary: 'block'
+  obsolete: true
+  add: [
+    ['n', 'stairs, square, block']
+  ]
+
 len:
   summary: 'cloth'
   tags: ['material']
@@ -415,6 +465,13 @@ ma:
     ['n', 'land, earth, country, (outdoor) area']
   ]
 
+majuna:
+  summary: 'old'
+  obsolete: true
+  add: [
+    ['mod', 'old']
+  ]
+
 mama:
   summary: 'parent'
   mnemonic: 'sounds like momma'
@@ -479,6 +536,13 @@ monsi:
   off: [
     ['n', 'back, rear end, butt, behind']
     ['mod', 'back, rear']
+  ]
+
+monsuta:
+  summary: 'fear'
+  obsolete: true
+  add: [
+    ['n', 'monster, fear']
   ]
 
 mu:
@@ -640,6 +704,7 @@ palisa:
 pan:
   summary: 'grain'
   tags: ['food']
+  new: true
   off: [
     ['n', 'grain, cereal']
   ]
@@ -651,12 +716,22 @@ pana:
     ['n', 'giving, transfer, exchange']
   ]
 
+pasila:
+  summary: 'easy'
+  obsolete: 'pona'
+  add: [
+    ['mod', 'good, easy']
+  ]
+
 pata:
   summary: 'sibling'
   tags: ['people']
-  obsolete: true
+  obsolete: 'jan sama'
   off: [
     ['n', 'brother']
+  ]
+  add: [
+    ['n', 'sibling']
   ]
 
 pi:
@@ -698,6 +773,13 @@ pipi:
     ['n', 'bug, insect, spider']
   ]
 
+po:
+  summary: 'four'
+  obsolete: true
+  add: [
+    ['mod', 'four']
+  ]
+
 poka:
   summary: 'next to'
   tags: ['location']
@@ -729,6 +811,15 @@ pona:
     ['mod', 'helpful; cooperating']
     ['mod', 'ideal']
     ['mod', 'conducive to overall wellness']
+  ]
+
+powe:
+  summary: 'fake'
+  obsolete: true
+  add: [
+    ['mod', 'unreal, false, untrue, pretend']
+    ['vt', 'deceive']
+    ['vi', 'trick']
   ]
 
 sama:
@@ -992,6 +1083,13 @@ tu:
     ['mod', 'two']
     ['n', 'duo, pair']
     ['vt', 'double, separate/cut/divide in two']
+  ]
+
+tuli:
+  summary: 'three'
+  obsolete: true
+  add: [
+    ['mod', 'three']
   ]
 
 unpa:
