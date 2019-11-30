@@ -1,3 +1,4 @@
+// http://tokipona.net/tp/ClassicWordList.aspx
 s = ''
 
 official = 'n mod sep vt vi interj prep conj kama cont conj oth'.split(' ')
@@ -29,3 +30,21 @@ ${add.map(([a, b]) => `    ['${a}', '${b}']`).join('\n')}
 
 })
 s
+
+// http://ucteam.ru/toki-pona/
+obj = {}
+$$('#etymologies tr').forEach(thing => {
+[a, b] = thing.children
+thing.querySelectorAll('abbr').forEach(t => t.outerHTML = `[${t.textContent}]`)
+z = b.textContent
+if (z !== '?') obj[a.textContent] = z === 'a priori' ? '[a priori]' : z
+})
+JSON.stringify(obj)
+
+// for the key
+obj = {}
+$$('#abbreviations tr').forEach(thing => {
+[a, b] = thing.children
+obj[a.textContent] = b.textContent
+})
+JSON.stringify(obj)
