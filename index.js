@@ -1,3 +1,5 @@
+let wordData, speechPartsKey, originLangsKey
+
 const content = document.getElementById('content')
 const syntaxHighlighted = document.getElementById('syntax-highlighted')
 
@@ -12,6 +14,57 @@ function displayContent () {
 content.addEventListener('input', displayContent)
 displayContent()
 
+content.addEventListener('keydown', e => {
+  if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+    if (selected !== null) {
+      results[selected].classList.remove('selected')
+      if (e.key === 'ArrowUp') {
+        selected = (selected + results.length - 1) % results.length
+      } else {
+        selected = (selected + 1) % results.length
+      }
+      results[selected].classList.add('selected')
+      e.preventDefault()
+    }
+  } else if (e.key === 'Tab') {
+    if (selected !== null) {
+      content.setSelectionRange(
+        content.value.lastIndexOf(' ', content.selectionStart) + 1,
+        content.selectionEnd
+      )
+      document.execCommand('insertText', false, results[0].dataset.term)
+      search.value = ''
+      filterWords()
+      e.preventDefault()
+    }
+  } else {
+    window.requestAnimationFrame(() => {
+      if (content.selectionStart === content.selectionEnd) {
+        const cursor = content.selectionStart
+        const text = content.value
+        const lastSpace = text.lastIndexOf(' ', cursor) + 1
+        const typingWord = text.slice(lastSpace, cursor)
+        if (typingWord !== search.value) {
+          search.value = typingWord
+          filterWords()
+          if (results.length) {
+            selected = 0
+            results[0].classList.add('selected')
+          }
+        }
+        const nextSpace = text.indexOf(' ', cursor)
+        const word = text.slice(lastSpace, ~nextSpace ? nextSpace : text.length)
+        if (word && wordData[word]) {
+          showDef(word, wordData[word])
+        }
+      } else if (selected !== null) {
+        results[selected].classList.remove('selected')
+        selected = null
+      }
+    })
+  }
+})
+
 content.addEventListener('scroll', e => {
   syntaxHighlighted.scrollTop = content.scrollTop
 })
@@ -20,8 +73,6 @@ function getJSON (path) {
   return fetch(path)
     .then(r => r.ok ? r.json() : Promise.reject(r.status))
 }
-
-let speechPartsKey, originLangsKey
 
 const entry = document.getElementById('entry')
 function defElem([speechParts, def]) {
@@ -81,6 +132,50 @@ const list = document.getElementById('results')
 const categorySelect = document.getElementById('categories')
 const search = document.getElementById('search')
 
+let results = []
+let selected = null
+function filterWords () {
+  if (selected !== null) {
+    results[selected].classList.remove('selected')
+    selected = null
+  }
+  results = []
+  if (search.value) {
+    document.body.classList.add('searching')
+    const query = search.value
+    for (const [term, { _elem, _definitions }] of Object.entries(wordData)) {
+      if (consonantCompare(query, term) || searchDef(query, _definitions)) {
+        _elem.classList.remove('hidden')
+        results.push(_elem)
+      } else {
+        _elem.classList.add('hidden')
+      }
+    }
+  } else {
+    document.body.classList.remove('searching')
+    let fn
+    switch (categorySelect.value) {
+      case 'all':
+        fn = ({ obsolete }) => !obsolete
+        break
+      case 'uncategorized':
+        fn = ({ _uncategorized }) => _uncategorized
+        break
+      default:
+        const tag = categorySelect.value
+        fn = ({ _tags }) => _tags.includes(tag)
+    }
+    for (const data of Object.values(wordData)) {
+      if (fn(data)) {
+        data._elem.classList.remove('hidden')
+        results.push(data._elem)
+      } else {
+        data._elem.classList.add('hidden')
+      }
+    }
+  }
+}
+
 const nonConsonants = /[^a-z]|[aeiou]/g
 function consonantCompare (sub, word) {
   const minQuery = sub.toLowerCase().replace(nonConsonants, '')
@@ -96,6 +191,7 @@ Promise.all([
   getJSON('./key.json'),
   getJSON('./pos.json')
 ]).then(([words, originLangs, speechParts]) => {
+  wordData = words
   originLangsKey = originLangs
   speechPartsKey = speechParts
   const elems = []
@@ -147,40 +243,6 @@ Promise.all([
     ['all', ...tagTypes, 'obsolete', 'uncategorized']
       .map(category => Elem('option', {}, [category]))
   ))
-  function filterWords () {
-    if (search.value) {
-      document.body.classList.add('searching')
-      const query = search.value
-      for (const [term, { _elem, _definitions }] of Object.entries(words)) {
-        if (consonantCompare(query, term) || searchDef(query, _definitions)) {
-          _elem.classList.remove('hidden')
-        } else {
-          _elem.classList.add('hidden')
-        }
-      }
-    } else {
-      document.body.classList.remove('searching')
-      let fn
-      switch (categorySelect.value) {
-        case 'all':
-          fn = ({ obsolete }) => !obsolete
-          break
-        case 'uncategorized':
-          fn = ({ _uncategorized }) => _uncategorized
-          break
-        default:
-          const tag = categorySelect.value
-          fn = ({ _tags }) => _tags.includes(tag)
-      }
-      for (const data of Object.values(words)) {
-        if (fn(data)) {
-          data._elem.classList.remove('hidden')
-        } else {
-          data._elem.classList.add('hidden')
-        }
-      }
-    }
-  }
   categorySelect.value = 'all'
   filterWords()
   search.addEventListener('input', filterWords)

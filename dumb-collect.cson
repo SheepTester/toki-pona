@@ -186,7 +186,7 @@ jelo:
   ]
 
 jo:
-  summar: 'have'
+  summary: 'have'
   off: [
     ['vt', 'have, contain']
     ['n', 'having']
