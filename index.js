@@ -18,50 +18,49 @@ content.addEventListener('keydown', e => {
   if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
     if (selected !== null) {
       results[selected].classList.remove('selected')
-      if (e.key === 'ArrowUp') {
-        selected = (selected + results.length - 1) % results.length
-      } else {
-        selected = (selected + 1) % results.length
-      }
-      results[selected].classList.add('selected')
-      e.preventDefault()
+    } else {
+      if (!results.length) return
+      selected = 0
     }
+    if (e.key === 'ArrowUp') {
+      selected = (selected + results.length - 1) % results.length
+    } else {
+      selected = (selected + 1) % results.length
+    }
+    results[selected].classList.add('selected')
+    e.preventDefault()
   } else if (e.key === 'Tab') {
     if (selected !== null) {
       content.setSelectionRange(
         content.value.lastIndexOf(' ', content.selectionStart) + 1,
         content.selectionEnd
       )
-      document.execCommand('insertText', false, results[0].dataset.term)
+      document.execCommand('insertText', false, results[selected].dataset.term)
       search.value = ''
       filterWords()
       e.preventDefault()
     }
-  } else {
-    window.requestAnimationFrame(() => {
-      if (content.selectionStart === content.selectionEnd) {
-        const cursor = content.selectionStart
-        const text = content.value
-        const lastSpace = text.lastIndexOf(' ', cursor) + 1
-        const typingWord = text.slice(lastSpace, cursor)
-        if (typingWord !== search.value) {
-          search.value = typingWord
-          filterWords()
-          if (results.length) {
-            selected = 0
-            results[0].classList.add('selected')
-          }
-        }
-        const nextSpace = text.indexOf(' ', cursor)
-        const word = text.slice(lastSpace, ~nextSpace ? nextSpace : text.length)
-        if (word && wordData[word]) {
-          showDef(word, wordData[word])
-        }
-      } else if (selected !== null) {
-        results[selected].classList.remove('selected')
-        selected = null
-      }
-    })
+  }
+})
+document.addEventListener('selectionchange', e => {
+  if (document.activeElement !== content) return
+  if (content.selectionStart === content.selectionEnd) {
+    const cursor = content.selectionStart
+    const text = content.value
+    const lastSpace = text.lastIndexOf(' ', cursor) + 1
+    const typingWord = text.slice(lastSpace, cursor)
+    if (typingWord !== search.value) {
+      search.value = typingWord
+      filterWords()
+    }
+    const nextSpace = text.indexOf(' ', cursor)
+    const word = text.slice(lastSpace, ~nextSpace ? nextSpace : text.length)
+    if (word && wordData && wordData[word]) {
+      showDef(word, wordData[word])
+    }
+  } else if (selected !== null) {
+    results[selected].classList.remove('selected')
+    selected = null
   }
 })
 
