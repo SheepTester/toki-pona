@@ -1,67 +1,171 @@
 let wordData, speechPartsKey, originLangsKey
 
+let results = []
+let selected = null
+
 const content = document.getElementById('content')
 const syntaxHighlighted = document.getElementById('syntax-highlighted')
 
+// https://stackoverflow.com/a/26900132 - Not perfect but sufficient
+const wordRegex = /[A-Za-zÀ-ÖØ-öø-ÿ]/
+const illegalSyllableRegex = /ti|ji|wo|wu|n[nm]+|[aeiou]{2,}/ig
+let typing = false, insertStart = null
+function execAll (regex, str, fn) {
+  regex.lastIndex = 0
+  let arr
+  while ((arr = regex.exec(str))) {
+    fn(arr)
+  }
+}
 function displayContent () {
   const text = content.value
-  syntaxHighlighted.textContent = text
-  syntaxHighlighted.appendChild(Elem('span', {
-    className: 'empty-line-placeholder'
-  }, ['']))
+  const flags = {}
+  function addFlag(pos, flag, on) {
+    if (!flags[pos]) flags[pos] = {}
+    flags[pos][flag] = on
+  }
+  const cursor = content.selectionStart === content.selectionEnd
+    ? content.selectionStart : null
+  let newInsertStart = null
+  if (cursor !== null) {
+    let start = cursor
+    while (start > 0 && wordRegex.test(text[start - 1])) {
+      start--
+    }
+    let end = cursor
+    while (end < text.length && wordRegex.test(text[end])) {
+      end++
+    }
+    if (start !== end) {
+      addFlag(start, 'showing-entry', true)
+      addFlag(end, 'showing-entry', false)
+      if (typing) {
+        addFlag(start, 'searching', true)
+        addFlag(cursor, 'searching', false)
+        newInsertStart = start
+        const typingWord = text.slice(start, cursor)
+        if (typingWord !== search.value) {
+          search.value = typingWord
+          filterWords()
+        }
+        if (selected === null) {
+          if (typingWord && wordData && wordData[typingWord]) {
+            showDef(typingWord, wordData[typingWord])
+          }
+        }
+      } else {
+        const word = text.slice(start, end)
+        if (word && wordData && wordData[word]) {
+          showDef(word, wordData[word])
+        }
+      }
+    }
+  }
+  if (insertStart !== newInsertStart) {
+    insertStart = newInsertStart
+    if (newInsertStart === null) {
+      search.value = ''
+      filterWords()
+    }
+  }
+  execAll(illegalSyllableRegex, text, ({index, [0]: match}) => {
+    addFlag(index, 'illegal', true)
+    addFlag(index + match.length, 'illegal', false)
+  })
+  const state = new Set()
+  let html = '<span>'
+  for (let i = 0; i < text.length; i++) {
+    if (flags.hasOwnProperty(i)) {
+      for (const [flag, on] of Object.entries(flags[i])) {
+        if (on) {
+          state.add(flag)
+        } else {
+          state.delete(flag)
+        }
+      }
+      html += `</span><span class="${[...state].map(flag => `syntax-${flag}`).join(' ')}">`
+      if (text[i] === ' ') {
+        html += '<span class="empty-line-placeholder">.</span>'
+      }
+    }
+    switch (text[i]) {
+      case '<':
+        html += '&lt;'
+        break
+      case '>':
+        html += '&gt;'
+        break
+      case '&':
+        html += '&amp;'
+        break
+      default:
+        html += text[i]
+    }
+  }
+  html += '</span><span class="empty-line-placeholder">.</span>'
+  syntaxHighlighted.innerHTML = html
 }
 
 content.addEventListener('input', displayContent)
 displayContent()
 
 content.addEventListener('keydown', e => {
-  if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+  if (e.ctrlKey || e.metaKey) {
+    typing = false
+  } else if (e.key === 'Tab') {
+    if (results.length) {
+      if (selected !== null) {
+        results[selected].classList.remove('selected')
+        if (e.shiftKey) {
+          selected = (selected + results.length - 1) % results.length
+        } else {
+          selected = (selected + 1) % results.length
+        }
+      } else {
+        selected = e.shiftKey ? results.length - 1 : 0
+      }
+      const elem = results[selected]
+      elem.classList.add('selected')
+      window.requestAnimationFrame(() => {
+        const outerRect = elem.parentNode.getBoundingClientRect()
+        const elemRect = elem.getBoundingClientRect()
+        if (outerRect.top > elemRect.top ||
+          outerRect.bottom < elemRect.bottom) {
+          elem.scrollIntoView()
+        }
+      })
+      const word = results[selected].dataset.term
+      if (word && wordData && wordData[word]) {
+        showDef(word, wordData[word])
+      }
+    }
+    e.preventDefault()
+  } else if (e.key === 'Escape') {
     if (selected !== null) {
       results[selected].classList.remove('selected')
-    } else {
-      if (!results.length) return
-      selected = 0
+      selected = null
     }
-    if (e.key === 'ArrowUp') {
-      selected = (selected + results.length - 1) % results.length
-    } else {
-      selected = (selected + 1) % results.length
-    }
-    results[selected].classList.add('selected')
     e.preventDefault()
-  } else if (e.key === 'Tab') {
+  } else if ((e.key.length === 1 && wordRegex.test(e.key)) || e.key === 'Backspace') {
+    typing = true
+  } else if (e.key.length === 1 || e.key === 'Enter') {
+    typing = false
     if (selected !== null) {
       content.setSelectionRange(
-        content.value.lastIndexOf(' ', content.selectionStart) + 1,
+        insertStart !== null ? insertStart : content.selectionStart,
         content.selectionEnd
       )
       document.execCommand('insertText', false, results[selected].dataset.term)
       search.value = ''
       filterWords()
-      e.preventDefault()
     }
+  } else {
+    typing = false
   }
 })
 document.addEventListener('selectionchange', e => {
   if (document.activeElement !== content) return
-  if (content.selectionStart === content.selectionEnd) {
-    const cursor = content.selectionStart
-    const text = content.value
-    const lastSpace = text.lastIndexOf(' ', cursor) + 1
-    const typingWord = text.slice(lastSpace, cursor)
-    if (typingWord !== search.value) {
-      search.value = typingWord
-      filterWords()
-    }
-    const nextSpace = text.indexOf(' ', cursor)
-    const word = text.slice(lastSpace, ~nextSpace ? nextSpace : text.length)
-    if (word && wordData && wordData[word]) {
-      showDef(word, wordData[word])
-    }
-  } else if (selected !== null) {
-    results[selected].classList.remove('selected')
-    selected = null
-  }
+  displayContent()
 })
 
 content.addEventListener('scroll', e => {
@@ -131,8 +235,6 @@ const list = document.getElementById('results')
 const categorySelect = document.getElementById('categories')
 const search = document.getElementById('search')
 
-let results = []
-let selected = null
 function filterWords () {
   if (selected !== null) {
     results[selected].classList.remove('selected')
